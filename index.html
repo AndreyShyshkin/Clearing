@@ -4,10 +4,111 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Clearing</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sanswght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <nav class="menu">
+        <div class="container">
+          <a href="/index.html"><img src="./public/images/logo.svg" alt="logo"></a>
+          <div class="switcher">
+            <p class="switcherBlock switcherActive">Дім</p>
+            <p class="switcherBlock">Офіс</p>
+          </div>
+          <a href="#">Після ремонту</a>
+          <a href="#">Розрахунок вартості</a>
+          <div class="social">
+            <a href="#"><img src="./public/images/instagram.svg" alt="instagram"></a>
+            <a href="#"><img src="./public/images/facebook.svg" alt="facebook"></a>
+            <a href="#"><img src="./public/images/whats-app.svg" alt="whats-app"></a>
+          </div>
+          <a href="tell:+48534517801" class="tell">+48 534 517 801</a>
+          <img src="./public/images/menu.svg" alt="menu" class="menuIcon">
+        </div>
+      </nav>
+      <div class="home">
+        <div class="container">
+          <h1>
+            <span class="highlighting">Приберемо</span> у вашому будинку чи квартирі
+            у Лодзі всього за <span class="highlighting">399zł</span>
+          </h1>
+          <h2 class="info">
+            Клінінгова компанія Comfort Group пропонує акційну підписку на послуги клінінгу у Лодзі всього за 399zł. Підписка включає прибирання в кімнатах, санвузлі та кухні.
+          </h2>
+          <button class="order">Замовити прибирання</button>
+        </div>
+        <div class="homeImg">
+          <img src="./public/images/illustration.png" alt="illustration">
+        </div>
+        <div class="container features">
+          <div class="feature">
+            <img src="./public/images/vecteezy_dollar-money.png" alt="vecteezy-dollar-money">
+            <h3>Бюджетна підписка</h3>
+            <p>Вартість місячної підписки всього 399zł. Вона включає 2 прибирання на місяць.</p>
+          </div>
+          <div class="feature">
+            <img src="./public/images/security.png" alt="security">
+            <h3>Безпечна хімія</h3>
+            <p>У прибиранні ми використовуємо лише якісну та не агресивну хімію KIEHL та Pomoc Domowa.</p>
+          </div>
+          <div class="feature">
+            <img src="./public/images/vacuum_cleaner.png" alt="vacuum-cleaner">
+            <h3>Професійна техніка</h3>
+            <p>Наші головні помічники у роботі - це техніка KARCHER! Вони забезпечують дійсно “кристальне” прибирання.</p>
+          </div>
+          <div class="feature">
+            <img src="./public/images/badge.png" alt="badge">
+            <h3>Контроль якості</h3>
+            <p>Ми завжди запитуємо відгук клієнта. Якщо ви не задоволені прибиранням — ми одразу приїдемо i все виправимо!</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <footer>
+      <div class="container footerBlocks">
+      <div>
+        <h3>Про нас</h3>
+        <ol>
+          <ul>Послуги</ul>
+          <ul>Вартість</ul>
+          <ul>Питання</ul>
+          <ul>Контакти</ul>
+        </ol>
+      </div>
+      <div>
+        <h3>Послуги</h3>
+        <ol>
+          <ul>Прибирання квартир та будинків</ul>
+          <ul>Прибирання офісів та ресторанів</ul>
+          <ul>Прибирання після ремонту</ul>
+        </ol>
+      </div>
+      <div>
+        <h3>Контакти</h3>
+        <ol>
+          <ul>на зв’язку 24/7</ul>
+          <ul><a href="#">+48 534 517 801</a></ul>
+          <ul><a href="#">пошта</a></ul>
+          <ul><a href="#">адреса</a></ul>
+        </ol>
+      </div>
+      <div class="socialsFooter">
+        <h3>Наша технічна підтримка</h3>
+        <img src="./public/images/instagram.svg" alt="instagram">
+        <img src="./public/images/facebook.svg" alt="facebook">
+        <img src="./public/images/whats-app.svg" alt="whats-app">
+      </div>
+    </div>
+    <div class="footerSecurite">
+      <p>©2023 Всі права захищено</p>
+      <p>Політика конфіденційності</p>
+      <p>Договір публічної оферти</p>
+    </div>
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
