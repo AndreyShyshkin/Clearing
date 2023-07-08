@@ -281,8 +281,71 @@ body{
 .switcherRoomsImg img{
   display: flex;
   margin: 0 auto;
+  z-index: 1;
 }
 
+.textPlusBlock p{
+  display: inline-flex;
+  padding: 7px 10px;
+  align-items: flex-start;
+  gap: 8px;
+
+  color: #1B1B1B;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border-radius: 5px;
+  background: #FFF;
+}
+
+.textPlusBlock img{
+  margin-bottom: 5px;
+}
+
+.plusBlockFloor{
+  position: absolute;
+  z-index: 2;
+  left: 325px;
+  top: 635px;
+}
+
+.plusBlockTile{
+  position: absolute;
+  z-index: 2;
+  left: 420px;
+  top: 360px;
+}
+
+.plusBlockStove{
+  position: absolute;
+  z-index: 2;
+  left: 615px;
+  top: 415px;
+}
+
+.plusBlockStove .textPlusBlock img{
+  rotate: 180deg;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.plusBlockEquipment{
+  position: absolute;
+  z-index: 2;
+  left: 820px;
+  top: 300px;
+}
+
+.plusBlockWindowsills{
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  width: 240px;
+  left: 870px;
+  top: 140px;
+}
 
 
 
@@ -309,6 +372,7 @@ footer{
   color: #1B1B1B;
 
   font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .contactFooter ul a{
@@ -323,6 +387,7 @@ footer{
 .socialsFooter img{
   background-color: #FFF;
   border-radius: 100px;
+  cursor: pointer;
 }
 
 .footerSecurity{
@@ -336,4 +401,6 @@ footer{
   margin-top: 110px;
   color: rgba(27, 27, 27, 0.60);
   font-size: 12px;
+
+  cursor: pointer;
 }
