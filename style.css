@@ -213,20 +213,30 @@ footer{
   font-size: 18px;
 }
 
+.contactFooter ul a{
+  color: #4D1299;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .socialsFooter img{
   background-color: #FFF;
   border-radius: 100px;
 }
 
-.footerSecurite{
+.footerSecurity{
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   width: 566px;
 }
 
-.footerSecurite p{
+.footerSecurity p{
   margin-top: 110px;
+  margin-bottom: 14px;
   color: rgba(27, 27, 27, 0.60);
   font-size: 12px;
 }
