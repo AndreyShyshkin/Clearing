@@ -226,10 +226,6 @@ body{
   line-height: normal;
 }
 
-.includedBlock p{
-  
-}
-
 .includedBlock span{
   position: absolute; bottom: 40px;
   color: rgba(27, 27, 27, 0.60);
