@@ -38,7 +38,8 @@ body{
 }
 
 .container{
-  margin: 0 140px;
+  margin: 0 auto;
+  max-width: 1160px;
 }
 
 .menu{
@@ -144,8 +145,8 @@ body{
 .homeImg{
   position: absolute;
   z-index: 1;
-  left: calc(100% - 800px);
-  top: 200px;
+  left: calc(100% - 1000px);
+  top: 250px;
 }
 
 .features{
@@ -153,7 +154,7 @@ body{
   height: 460px;
   justify-content: space-between;
   margin-top: 256px;
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .feature{
@@ -201,15 +202,18 @@ body{
   margin-bottom: 150px;
 }
 
+.includedBlocContent{
+  margin: 40px;
+}
+
 .includedBlock{
-  width: 560px;
+  max-width: 560px;
   height: 391px;
   flex-shrink: 0;
   position: relative; 
 
   border-radius: 30px;
   background: #F4F4F8;
-  padding: 40px;
 }
 
 .includedBlock h3{
