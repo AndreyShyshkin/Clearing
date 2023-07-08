@@ -635,6 +635,98 @@ body{
   color: #FFF;
 }
 
+.trust{
+  background: #F4F4F8;
+  padding: 116px 0;
+}
+
+.trustContainer{
+  border-radius: 30px;
+  background: #EBE7F3;
+  padding: 116px 0;
+  position: relative;
+}
+
+.trustContainerH2{
+  text-align: center;
+
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+.trustBlocksLine{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 60px;
+}
+
+.trustBlock{
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+
+  border-radius: 30px;
+  background: #F4F4F8;
+  position: relative;
+}
+
+.trustBlockContainer{
+  padding: 40px;
+}
+
+.trustBlockContainer h3{
+  color: #4D1299;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.trustBlockContainer h2{
+  color: #1B1B1B;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.trustBlockContainer p{
+  display: flex;
+  width: 421px;
+  flex-direction: column;
+}
+
+.vecteezy-hand-brush-cleaner{
+  position: absolute;
+  top: 898px;
+  left: 0;
+}
+
+.vecteezy-stylized-cleaning-sponge{
+  position: absolute;
+  top: 495px;
+  right: -10px;
+}
+
+.btnTrust{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 18px 26px;
+  align-items: center;
+  border-radius: 50px;
+  background: #4D1299;
+  color: #FFF;
+}
+
+
 footer{
   border-radius: 30px 30px 0px 0px;
   background: #EBE7F3;
