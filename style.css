@@ -110,6 +110,11 @@ body{
   background: #F4F4F8;
 }
 
+.mainScreen{
+  position: relative;
+  z-index: 2;
+}
+
 .highlighting{
   color: #4D1299;
 }
