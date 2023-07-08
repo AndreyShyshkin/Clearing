@@ -32,6 +32,7 @@ body{
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  background: #F4F4F8;
 }
 
 .container{
@@ -180,6 +181,10 @@ body{
   
 }
 
+.included{
+  background-color: #FFF;
+}
+
 .included h2{
   text-align: center;
   
@@ -187,8 +192,8 @@ body{
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-top: 115px;
-  margin-bottom: 65px;
+  padding-top: 115px;
+  padding-bottom: 65px;
 }
 
 .includedBlocks{
@@ -261,7 +266,7 @@ body{
 
 .switcherRoomsImg{
   position: relative;
-  margin-bottom: 115px;
+  padding-bottom: 115px;
 }
 
 .switcherRoomsImg img{
@@ -568,7 +573,7 @@ body{
   font-weight: 700;
   line-height: normal;
 
-  margin-top: 115px;
+  padding-top: 115px;
   margin-bottom: 65px;
 }
 
@@ -610,7 +615,7 @@ body{
 .btnsRewiew{
   display: flex;
   justify-content: center;
-  margin-bottom: 115px;
+  padding-bottom: 115px;
 }
 
 .btnRewiew{
@@ -628,6 +633,8 @@ body{
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+
+  margin-right: 16px;
 }
 
 .btnRewiewActive{
@@ -729,7 +736,7 @@ body{
 
 .FQA{
   background: #F4F4F8;
-  padding: 116px 0;
+  padding-bottom: 116px;
 }
 
 .FQAContainerH2{
@@ -793,6 +800,205 @@ details > p{
   background: #4D1299;
 
   color: #FFF;
+}
+
+.ContactUs{
+  background: #F4F4F8;
+}
+
+.ContactUsH2{
+  margin: 0 auto;
+  text-align: center;
+
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ContactUsBlock{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+  margin-bottom: 115px;
+}
+
+.ContactUsBlockLeft{
+  padding: 40px;
+}
+
+.ContactUsBlockLeft h4{
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.ContactUsBlockLeft p{
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.ContactUsBlockLeft a{
+  display: inline-flex;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 50px;
+  border: 2px solid #4D1299;
+
+  color: #4D1299;
+  margin-bottom: 13px;
+}
+
+.ContactUsBlockLeft img{
+  background-color: #EBE7F3;
+  border-radius: 100px;
+  margin-right: 16px;
+}
+
+.ContactUsBlockRight{
+  width: 500px;
+  height: 351px;
+
+  background-color: #FFF;
+  border-radius: 20px;
+}
+
+.ContactUsBlockRightContainer{
+  padding: 40px;
+}
+
+.ContactUsBlockRight h3{
+  display: flex;
+  width: 420px;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 115%;
+  margin: 0;
+}
+
+.work24_7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.work24_7 img{
+  margin-right: 16px;
+}
+
+.ContactUsSocialRight{
+  display: flex;
+  justify-content: center;
+}
+
+.ContactUsBlockRight p{
+  text-align: center;
+  margin: 16px 0;
+}
+
+.ContactUsBlockRight a{
+  display: flex;
+  justify-content: center;
+  color: #4D1299;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ContactUsBanner{
+  position: relative;
+  height: 482px;
+  flex-shrink: 0;
+
+  border-radius: 30px;
+  background: #4D1299;
+  margin-bottom: 165px;
+}
+
+.ContactUsBanner h3{
+  width: 600px;
+
+  color: #EBE7F3;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 36px;
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 115%;
+}
+
+.ContactUsBanner h3 span{
+  color: white;
+  background-color: tomato;
+  border-radius: 50px;
+  padding: 2px;
+}
+
+.ContactUsBanner h4{
+  color: #EBE7F3;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.ContactUsBanner p{
+  display: flex;
+  width: 400px;
+
+  color: rgba(235, 231, 243, 0.80);
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+
+.ContactUsBanner button{
+  display: flex;
+  width: 391px;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: #F4F4F8;
+
+  color: #4D1299;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin: 0 auto;
+  margin-top: 36px;
+}
+
+.girl-and-boy-cleaning-service-3{
+  position: absolute;
+  left: 30px;
+}
+
+.girl-and-boy-cleaning-service-1{
+  position: absolute;
+  right: 60px;
 }
 
 footer{
