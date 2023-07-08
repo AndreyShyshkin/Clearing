@@ -727,6 +727,74 @@ body{
 }
 
 
+.FQA{
+  background: #F4F4F8;
+  padding: 116px 0;
+}
+
+.FQAContainerH2{
+  text-align: center;
+
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding-bottom: 65px;
+  margin: 0;
+}
+
+.FQAContainer{
+  border-radius: 30px;
+  background: #EBE7F3;
+}
+
+.FQABlocks{
+  padding: 60px;
+}
+
+details{
+  border-bottom: 2px solid #4D1299;
+}
+
+.summaryDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+details > summary {
+  cursor: pointer;
+  list-style: none;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin: 32px 0;
+}
+
+details > p{
+  margin-bottom: 32px;
+  width: 900px;
+}
+
+.btnFQA{
+  display: flex;
+  margin: 60px auto;
+  margin-bottom: 0;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px;
+  background: #4D1299;
+
+  color: #FFF;
+}
+
 footer{
   border-radius: 30px 30px 0px 0px;
   background: #EBE7F3;
