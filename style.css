@@ -15,9 +15,6 @@ h1{
 ol, ul, p{
   margin: 0;
   padding: 0;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 a{
@@ -33,7 +30,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: normal;
 }
 
@@ -45,8 +42,7 @@ body{
 .menu{
   width: 100%;
   height: 108px;
-  flex-shrink: 0;
-
+  
   background: #FFF;
   box-shadow: 0px 15px 20px 0px rgba(33, 33, 51, 0.03);
 }
@@ -122,7 +118,6 @@ body{
 .info{
   width: 604px;
 
-  color: #1B1B1B;
   font-size: 18px;
 
   margin-top: 20px;
@@ -170,8 +165,7 @@ body{
   margin: 0 auto;
 }
 
-.feature h3{
-  color: #1B1B1B;
+.feature h3{ 
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -180,14 +174,13 @@ body{
 }
 
 .feature p{
-  color: #1B1B1B;
+  
   text-align: center;
   font-size: 18px;
   
 }
 
 .included h2{
-  color: #1B1B1B;
   text-align: center;
   
   font-size: 46px;
@@ -211,7 +204,7 @@ body{
 .includedBlock{
   max-width: 560px;
   height: 391px;
-  flex-shrink: 0;
+  
   position: relative; 
 
   border-radius: 30px;
@@ -226,8 +219,7 @@ body{
   line-height: normal;
 }
 
-.includedBlock h4{
-  color: #1B1B1B;
+.includedBlock h4{ 
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -235,20 +227,13 @@ body{
 }
 
 .includedBlock p{
-  color: #1B1B1B;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  
 }
 
 .includedBlock span{
   position: absolute; bottom: 40px;
   color: rgba(27, 27, 27, 0.60);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .mainSwitcherRooms{
@@ -295,11 +280,7 @@ body{
   align-items: flex-start;
   gap: 8px;
 
-  color: #1B1B1B;
   font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 
   border-radius: 5px;
   background: #FFF;
@@ -358,7 +339,6 @@ body{
 }
 
 .subscribe h2{
-  color: #1B1B1B;
   text-align: center;
   font-size: 46px;
   font-style: normal;
@@ -374,19 +354,13 @@ body{
   width: 657px;
   margin: 0 auto;
 
-  color: #1B1B1B;
   text-align: center;
 
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   padding-bottom: 50px;
 }
 
 .banner1{
   height: 423px;
-  flex-shrink: 0;
 
   border-radius: 30px;
   background: #EBE7F3;
@@ -402,10 +376,6 @@ body{
 .banner1Right h3{
   display: flex;
   width: 500px;
-  flex-direction: column;
-  flex-shrink: 0;
-
-  color: #1B1B1B;
 
   font-size: 32px;
   font-style: normal;
@@ -416,13 +386,8 @@ body{
 .banner1Right ol ul{
   display: flex;
   align-items: center;
-  color: #1B1B1B;
+  
   margin: 32px 0;
-
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .banner1Left h3{
@@ -438,16 +403,10 @@ body{
 .banner1Left p{
   display: flex;
   width: 400px;
-  flex-direction: column;
-  flex-shrink: 0;
 
   color: rgba(27, 27, 27, 0.60);
   text-align: center;
 
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   margin-bottom: 35px;
 }
 
@@ -487,18 +446,10 @@ body{
   margin-left: 12px;
   display: flex;
   width: 442px;
-  flex-direction: column;
-  flex-shrink: 0;
-
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .banner2{
   height: 311px;
-  flex-shrink: 0;
 
   border-radius: 30px;
   background: #4D1299;
@@ -521,7 +472,7 @@ body{
 .banner2 img{
   width: 311px;
   height: 311px;
-  flex-shrink: 0;
+
   margin: 0 115px;
 }
 
@@ -545,10 +496,7 @@ body{
   margin-top: 185px;
   margin-bottom: 24px;
   width: 560px;
-  flex-direction: column;
-  flex-shrink: 0;
 
-  color: #1B1B1B;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -556,13 +504,8 @@ body{
 }
 
 .block3 ul ol{
-  color: #1B1B1B;
   display: flex;
 
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   margin-bottom: 16px;
 }
 
@@ -584,7 +527,7 @@ body{
 }
 
 .block4 h3{
-  color: #1B1B1B;
+  
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -593,7 +536,6 @@ body{
 }
 
 .block4 p{
-  color: #1B1B1B;
   text-align: center;
   font-size: 18px;
   font-style: normal;
@@ -630,7 +572,6 @@ footer{
 }
 
 .footerBlocks h3{
-  color: #1B1B1B;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -638,7 +579,7 @@ footer{
 }
 
 .footerBlocks ol ul{
-  color: #1B1B1B;
+  
 
   font-size: 18px;
   margin-bottom: 8px;
