@@ -15,6 +15,7 @@ h1{
 ol, ul, p{
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 a{
@@ -143,7 +144,7 @@ body{
 .homeImg{
   position: absolute;
   z-index: 1;
-  left: calc(100% - 1000px);
+  right: 80px;
   top: 250px;
 }
 
@@ -384,7 +385,7 @@ body{
   line-height: 115%;
 }
 
-.banner1Right ol ul{
+.banner1Right ul li{
   display: flex;
   align-items: center;
   
@@ -504,8 +505,9 @@ body{
   line-height: 115%;
 }
 
-.block3 ul ol{
+.block3 ul li{
   display: flex;
+  align-items: center;
 
   margin-bottom: 16px;
 }
@@ -1019,14 +1021,12 @@ footer{
   line-height: normal;
 }
 
-.footerBlocks ol ul{
-  
-
+.footerBlocks ul li{
   font-size: 18px;
   margin-bottom: 8px;
 }
 
-.contactFooter ul a{
+.contactFooter li a{
   color: #4D1299;
 
   font-size: 18px;
