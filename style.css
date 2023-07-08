@@ -556,6 +556,85 @@ body{
   line-height: normal;
 }
 
+.reviews{
+  background-color: white;
+}
+
+.reviews h2{
+  text-align: center;
+
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin-top: 115px;
+  margin-bottom: 65px;
+}
+
+.review{
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+
+  border-radius: 30px;
+  background: #F4F4F8;
+  margin-bottom: 36px;
+}
+
+.reviewsBlocks{
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 24px;
+}
+
+.reviewsBlocks h3{
+  color: #1B1B1B;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.stars{
+  margin-bottom: 16px;
+}
+
+.reviewContainer{
+  padding: 28px 24px;
+}
+
+.btnsRewiew{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 115px;
+}
+
+.btnRewiew{
+  display: inline-flex;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px;
+  border: 2px solid #4D1299;
+  background: #FFF;
+
+  color: #4D1299;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btnRewiewActive{
+  background: #4D1299;
+  color: #FFF;
+}
+
 footer{
   border-radius: 30px 30px 0px 0px;
   background: #EBE7F3;
