@@ -49,7 +49,7 @@
   
   details > p{
     margin-bottom: 32px;
-    width: 900px;
+    max-width: 900px;
   }
   
   .btnFQA{

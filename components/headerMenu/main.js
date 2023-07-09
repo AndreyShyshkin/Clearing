@@ -13,8 +13,10 @@ function headerMenu(){
       <p class="switcherBlock switcherActive">Дім</p>
       <p class="switcherBlock">Офіс</p>
     </div>
-    <a href="#">Після ремонту</a>
-    <a href="#">Розрахунок вартості</a>
+    <div class="menuLinks">
+      <a href="#">Після ремонту</a>
+      <a href="#">Розрахунок вартості</a>
+    </div>
     <div class="social">
       <a href="#"><img src="${instagram}" alt="instagram"></a>
       <a href="#"><img src="${facebook}" alt="facebook"></a>

@@ -23,6 +23,7 @@ function headerHome(){
     </div>
   </div>
   <div class="container features">
+  <div class="row">
     <div class="feature">
       <img src="${vecteezy_dollar_money}" alt="vecteezy-dollar-money">
       <h3>Бюджетна підписка</h3>
@@ -33,6 +34,8 @@ function headerHome(){
       <h3>Безпечна хімія</h3>
       <p>У прибиранні ми використовуємо лише якісну та не агресивну хімію <b>KIEHL</b> та <b>Pomoc Domowa</b>.</p>
     </div>
+  </div>
+  <div class="row">
     <div class="feature">
       <img src="${vacuum_cleaner}" alt="vacuum-cleaner">
       <h3>Професійна техніка</h3>
@@ -44,6 +47,7 @@ function headerHome(){
       <p>Ми завжди <b>запитуємо відгук</b> клієнта. Якщо ви не задоволені прибиранням — ми одразу приїдемо i все виправимо!</p>
     </div>
   </div>
+</div>
     `
     }
     

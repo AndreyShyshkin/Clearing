@@ -9,7 +9,7 @@ function mainTrust(){
       <h2 class="trustContainerH2">Чому нам можна довіряти</h2>
       <div class="trustBlocks">
         <div class="trustBlocksLine">
-          <div class="trustBlock">
+          <div class="trustBlock trustBlockLeft">
             <div class="trustBlockContainer">
               <h3>01</h3>
               <h2>Індивідуальний підхід</h2>
@@ -24,9 +24,10 @@ function mainTrust(){
                 У разі якщо клієнт не задоволенний якістю прибирання ми проводимо повторне прибирання або повністю повертаємо кошти.</p>
             </div>
           </div>
+          <img src="${vecteezy_stylized_cleaning_sponge}" alt="vecteezy-stylized-cleaning-sponge" class="vecteezy-stylized-cleaning-sponge">
         </div>
         <div class="trustBlocksLine">
-          <div class="trustBlock">
+          <div class="trustBlock trustBlockLeft">
             <div class="trustBlockContainer">
               <h3>03</h3>
               <h2>Професійна техніка та безпечна хімія</h2>
@@ -40,9 +41,8 @@ function mainTrust(){
               <p>Вартість наших послуг формується по прозорій схемі. Клієнти Comfort Group можуть заощадити замовивши акційну місячну підписку або скориставшись нашими акціями.</p>
             </div>
           </div>
+          <img src="${vecteezy_hand_brush_cleaner}" alt="vecteezy-hand-brush-cleaner" class="vecteezy-hand-brush-cleaner">
         </div>
-        <img src="${vecteezy_hand_brush_cleaner}" alt="vecteezy-hand-brush-cleaner" class="vecteezy-hand-brush-cleaner">
-        <img src="${vecteezy_stylized_cleaning_sponge}" alt="vecteezy-stylized-cleaning-sponge" class="vecteezy-stylized-cleaning-sponge">
       </div>
       <button class="btnTrust">Замовити прибирання</button>
     </div>

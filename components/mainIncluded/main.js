@@ -30,8 +30,8 @@ function mainIncluded(){
       <div class="SwitcherRoom">Санвузол</div>
     </div>
     <div class="switcherRoomsImg">
-      <img src="${switcherRoomsImg}" alt="switcherRoomsImg">
       <div class="plusBloks">
+      <img src="${switcherRoomsImg}" alt="switcherRoomsImg">
         <div class="plusBlockFloor">
           <div class="textPlusBlock">
             <p>Миємо підлогу</p>

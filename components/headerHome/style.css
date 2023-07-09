@@ -1,3 +1,13 @@
+h1{
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  max-width: 678px;
+  padding-top: 148px;
+  margin: 0;
+}
+
 .home{
     background: #F4F4F8;
   }
@@ -12,7 +22,7 @@
   }
   
   .info{
-    width: 604px;
+    max-width: 604px;
   
     font-size: 18px;
   
@@ -44,15 +54,21 @@
   
   .features{
     display: flex;
-    height: 460px;
     justify-content: space-between;
     margin-top: 256px;
     padding-bottom: 120px;
   }
+
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
   
   .feature{
     padding-top: 100px;
-    width: 260px;
+    max-width: 260px;
+    margin: 0 auto;
   }
   
   .feature img{
@@ -73,5 +89,23 @@
     
     text-align: center;
     font-size: 18px;
-    
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .homeImg{
+      top: 700px;
+      right: 15px;
+    } 
+
+    .features{
+      margin-top: 456px;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .row{
+      display: block;
+      width: 100%;
+    }
   }

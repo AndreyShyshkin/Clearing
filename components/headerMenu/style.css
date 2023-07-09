@@ -1,16 +1,16 @@
 .menu{
     width: 100%;
-    height: 108px;
     
     background: #FFF;
     box-shadow: 0px 15px 20px 0px rgba(33, 33, 51, 0.03);
+    padding: 20px 0;
   }
   
   .menu .container{
     display: flex;
-    padding: 20px 0;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
   }
   
   .switcher{
@@ -43,6 +43,12 @@
     background: #4D1299;
     color: #FFF;
   }
+
+  .menuLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+  }
   
   .tell{
     display: inline-flex;
@@ -59,4 +65,19 @@
   
   .menuIcon{
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .menuLinks{
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .tell{
+      display: none;
+    }
+    .social{
+      display: none;
+    }
   }

@@ -16,7 +16,7 @@
   
   .subscribeInfo{
     display: flex;
-    width: 657px;
+    max-width: 657px;
     margin: 0 auto;
   
     text-align: center;
@@ -25,8 +25,6 @@
   }
   
   .banner1{
-    height: 423px;
-  
     border-radius: 30px;
     background: #EBE7F3;
     margin-bottom: 50px;
@@ -40,7 +38,7 @@
   
   .banner1Right h3{
     display: flex;
-    width: 500px;
+    max-width: 500px;
   
     font-size: 32px;
     font-style: normal;
@@ -53,6 +51,10 @@
     align-items: center;
     
     margin: 32px 0;
+  }
+
+  .banner1Left{
+    margin: auto;
   }
   
   .banner1Left h3{
@@ -67,17 +69,18 @@
   
   .banner1Left p{
     display: flex;
-    width: 400px;
+    max-width: 400px;
   
     color: rgba(27, 27, 27, 0.60);
     text-align: center;
   
+    margin: 0 auto;
     margin-bottom: 35px;
   }
   
   .banner1Left button{
     display: flex;
-    width: 400px;
+    max-width: 400px;
     padding: 18px 26px;
     justify-content: center;
     align-items: center;
@@ -90,6 +93,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+
+    margin: 0 auto;
   }
   
   .valentinBlock{
@@ -100,12 +105,10 @@
   .valentinBlock p{
     margin-left: 12px;
     display: flex;
-    width: 442px;
+    max-width: 442px;
   }
   
   .banner2{
-    height: 311px;
-  
     border-radius: 30px;
     background: #4D1299;
     display: flex;
@@ -113,7 +116,7 @@
   }
   
   .banner2 p{
-    width: 540px;
+    max-width: 540px;
   
     color: #EBE7F3;
   
@@ -128,7 +131,7 @@
     width: 311px;
     height: 311px;
   
-    margin: 0 115px;
+    margin: auto;
   }
   
   .banner2 span{
@@ -142,15 +145,23 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .block3 > div{
+    width: 50%;
+    margin: auto;
+  }
   
   .block3 img{
-    margin-top: 60px;
+    margin: auto;
+    padding-top: 60px;
+    width: 50%;
+    height: 50%;
   }
   
   .block3 h3{
     margin-top: 185px;
     margin-bottom: 24px;
-    width: 560px;
+    max-width: 560px;
   
     font-size: 32px;
     font-style: normal;
@@ -214,4 +225,25 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .banner1Container{
+      display: block;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .banner2{
+      display: block;
+    }
+
+    .block3{
+      display: block;
+    }
+
+    .block3 img{
+      width: 100%;
+      height: 100%;
+    }
   }

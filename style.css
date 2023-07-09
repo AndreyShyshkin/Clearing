@@ -2,16 +2,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1{
-  font-size: 55px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 115%;
-  width: 678px;
-  padding-top: 148px;
-  margin: 0;
-}
-
 ol, ul, p{
   margin: 0;
   padding: 0;
@@ -38,7 +28,8 @@ body{
 
 .container{
   margin: 0 auto;
-  max-width: 1160px;
+  padding: 0 140px;
+  max-width: calc(1160px + 140px);
 }
 
 .circle{
@@ -49,4 +40,18 @@ body{
   min-width: 11px;
   min-height: 11px;
   margin-right: 12px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container{
+    padding: 0 39px;
+    max-width: calc(690px + 39px);
+  }  
+}
+
+@media only screen and (max-width: 375px) {
+  .container{
+    padding: 0 20px;
+    max-width: calc(690px + 20px);
+  } 
 }

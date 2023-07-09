@@ -20,7 +20,7 @@
   }
   
   .ContactUsBlockLeft{
-    padding: 40px;
+    padding: 40px 0;
   }
   
   .ContactUsBlockLeft h4{
@@ -57,7 +57,7 @@
   }
   
   .ContactUsBlockRight{
-    width: 500px;
+    max-width: 500px;
     height: 351px;
   
     background-color: #FFF;
@@ -65,12 +65,12 @@
   }
   
   .ContactUsBlockRightContainer{
-    padding: 40px;
+    padding: 40px 0;
   }
   
   .ContactUsBlockRight h3{
     display: flex;
-    width: 420px;
+    max-width: 420px;
     flex-direction: column;
     flex-shrink: 0;
   
@@ -126,7 +126,7 @@
   }
   
   .ContactUsBanner h3{
-    width: 600px;
+    max-width: 600px;
   
     color: #EBE7F3;
     text-align: center;
@@ -170,7 +170,7 @@
   
   .ContactUsBanner button{
     display: flex;
-    width: 391px;
+    max-width: 391px;
     padding: 18px 26px;
     justify-content: center;
     align-items: center;
@@ -186,13 +186,40 @@
     margin: 0 auto;
     margin-top: 36px;
   }
+
+  .ContactUsBanner > div{
+    position: relative;
+    z-index: 2;
+  }
   
   .girl-and-boy-cleaning-service-3{
     position: absolute;
     left: 30px;
+    z-index: 1;
   }
   
   .girl-and-boy-cleaning-service-1{
     position: absolute;
     right: 60px;
+    z-index: 1;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .ContactUsBlockRight{
+      max-width: 420px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .girl-and-boy-cleaning-service-3{
+      display: none !important;
+    }
+    
+    .girl-and-boy-cleaning-service-1{
+      display: none !important;
+    }
+
+  .ContactUsBlock{
+    display: block;
+  }
   }
