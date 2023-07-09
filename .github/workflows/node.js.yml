@@ -24,4 +24,4 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run build
-    - run: mv ./dist/
+    - run: cd ./dist/
