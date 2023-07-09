@@ -3,6 +3,7 @@ import facebook from '/public/images/facebook.svg';
 import whats_app from '/public/images/whats-app.svg';
 import girl_and_boy_cleaning_service_3 from '/public/images/girl-and-boy-cleaning-service-3.png';
 import girl_and_boy_cleaning_service_1 from '/public/images/girl-and-boy-cleaning-service-1.png';
+import './style.css';
 
 function mainContactUs(){
     document.querySelector('.ContactUs').innerHTML = `

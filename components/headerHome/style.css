@@ -1,0 +1,77 @@
+.home{
+    background: #F4F4F8;
+  }
+  
+  .mainScreen{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .highlighting{
+    color: #4D1299;
+  }
+  
+  .info{
+    width: 604px;
+  
+    font-size: 18px;
+  
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .order{
+    border-radius: 50px;
+    background: #4D1299;
+    color: #FFF;
+    padding: 18px 26px;
+  
+    cursor: pointer;
+  
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .homeImg{
+    position: absolute;
+    z-index: 1;
+    right: 80px;
+    top: 250px;
+  }
+  
+  .features{
+    display: flex;
+    height: 460px;
+    justify-content: space-between;
+    margin-top: 256px;
+    padding-bottom: 120px;
+  }
+  
+  .feature{
+    padding-top: 100px;
+    width: 260px;
+  }
+  
+  .feature img{
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .feature h3{ 
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .feature p{
+    
+    text-align: center;
+    font-size: 18px;
+    
+  }

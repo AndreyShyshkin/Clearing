@@ -3,6 +3,7 @@ import facebook from '/public/images/facebook.svg';
 import whats_app from '/public/images/whats-app.svg';
 import logo from '/public/images/logo.svg';
 import menu from '/public/images/menu.svg';
+import './style.css';
 
 function headerMenu(){
     document.querySelector('.menu').innerHTML = `

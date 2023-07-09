@@ -1,4 +1,5 @@
 import detailsPlus from '/public/images/detailsPlus.png';
+import './style.css';
 
 function mainFQA(){
     document.querySelector('.FQA').innerHTML = `

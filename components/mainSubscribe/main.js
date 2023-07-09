@@ -4,6 +4,7 @@ import block3Img from '/public/images/block3Img.png';
 import vacuum_cleaner from '/public/images/vacuum_cleaner.png';
 import WashBottle from '/public/images/WashBottle.png';
 import badge from '/public/images/badge.png';
+import './style.css';
 
 function mainSubscribe(){
     document.querySelector('.subscribe').innerHTML = `

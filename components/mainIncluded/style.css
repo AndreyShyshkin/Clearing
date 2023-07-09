@@ -1,0 +1,152 @@
+.included{
+    background-color: #FFF;
+  }
+  
+  .included h2{
+    text-align: center;
+    
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 115px;
+    padding-bottom: 65px;
+  }
+  
+  .includedBlocks{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+  }
+  
+  .includedBlocContent{
+    margin: 40px;
+  }
+  
+  .includedBlock{
+    max-width: 560px;
+    height: 391px;
+    
+    position: relative; 
+  
+    border-radius: 30px;
+    background: #F4F4F8;
+  }
+  
+  .includedBlock h3{
+    color: #4D1299;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .includedBlock h4{ 
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .includedBlock span{
+    position: absolute; bottom: 40px;
+    color: rgba(27, 27, 27, 0.60);
+    font-size: 16px;
+  }
+  
+  .mainSwitcherRooms{
+    display: flex;
+    padding: 6px;
+    align-items: flex-start;
+  
+    border-radius: 50px;
+    border: 2px solid #4D1299;
+    background: #FFF;
+    margin-bottom: 60px;
+  }
+  
+  .SwitcherRoom{
+    display: flex;
+    padding: 16px 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    color: black;
+  }
+  
+  .SwitcherRoomActive{
+    border-radius: 50px;
+    color: white;
+    background: #4D1299;
+  }
+  
+  .switcherRoomsImg{
+    position: relative;
+    padding-bottom: 115px;
+  }
+  
+  .switcherRoomsImg img{
+    display: flex;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  
+  .textPlusBlock p{
+    display: inline-flex;
+    padding: 7px 10px;
+    align-items: flex-start;
+    gap: 8px;
+  
+    font-size: 13px;
+  
+    border-radius: 5px;
+    background: #FFF;
+  }
+  
+  .textPlusBlock img{
+    margin-bottom: 5px;
+  }
+  
+  .plusBlockFloor{
+    position: absolute;
+    z-index: 2;
+    left: 325px;
+    top: 635px;
+  }
+  
+  .plusBlockTile{
+    position: absolute;
+    z-index: 2;
+    left: 420px;
+    top: 360px;
+  }
+  
+  .plusBlockStove{
+    position: absolute;
+    z-index: 2;
+    left: 615px;
+    top: 415px;
+  }
+  
+  .plusBlockStove .textPlusBlock img{
+    rotate: 180deg;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  
+  .plusBlockEquipment{
+    position: absolute;
+    z-index: 2;
+    left: 820px;
+    top: 300px;
+  }
+  
+  .plusBlockWindowsills{
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 240px;
+    left: 870px;
+    top: 140px;
+  }

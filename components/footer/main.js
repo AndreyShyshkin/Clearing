@@ -1,6 +1,7 @@
 import instagram from '/public/images/instagram.svg';
 import facebook from '/public/images/facebook.svg';
 import whats_app from '/public/images/whats-app.svg';
+import './style.css';
 
 function footer(){
 document.querySelector('footer').innerHTML = `

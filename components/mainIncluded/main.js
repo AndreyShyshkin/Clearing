@@ -1,6 +1,7 @@
 import switcherRoomsImg from '/public/images/switcherRoomsImg.png';
 import Polygon_1 from '/public/images/Polygon 1.svg';
 import plus from '/public/images/plus.png';
+import './style.css';
 
 function mainIncluded(){
     document.querySelector('.included').innerHTML = `

@@ -1,4 +1,5 @@
 import stars from '/public/images/stars.png';
+import './style.css';
 
 function mainReviews(){
     document.querySelector('.reviews').innerHTML = `

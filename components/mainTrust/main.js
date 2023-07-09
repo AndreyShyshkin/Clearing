@@ -1,5 +1,6 @@
 import vecteezy_hand_brush_cleaner from '/public/images/vecteezy-hand-brush-cleaner.png';
 import vecteezy_stylized_cleaning_sponge from '/public/images/vecteezy-stylized-cleaning-sponge.png';
+import './style.css';
 
 function mainTrust(){
     document.querySelector('.trust').innerHTML = `

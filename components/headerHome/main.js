@@ -3,6 +3,7 @@ import vecteezy_dollar_money from '/public/images/vecteezy_dollar-money.png';
 import security from '/public/images/security.png';
 import vacuum_cleaner from '/public/images/vacuum_cleaner.png';
 import badge from '/public/images/badge.png';
+import './style.css';
 
 function headerHome(){
     document.querySelector('.home').innerHTML = `
