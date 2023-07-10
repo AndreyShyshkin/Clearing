@@ -21,6 +21,7 @@
   
   .ContactUsBlockLeft{
     padding: 40px 0;
+    width: 50%;
   }
   
   .ContactUsBlockLeft h4{
@@ -79,7 +80,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 115%;
-    margin: 0;
+    margin: 0 auto;
   }
   
   .work24_7{
@@ -122,6 +123,7 @@
   
     border-radius: 30px;
     background: #4D1299;
+    padding-bottom: 36px;
     margin-bottom: 165px;
   }
   
@@ -159,7 +161,7 @@
   
   .ContactUsBanner p{
     display: flex;
-    width: 400px;
+    max-width: 400px;
   
     color: rgba(235, 231, 243, 0.80);
     text-align: center;
@@ -197,6 +199,13 @@
     left: 30px;
     z-index: 1;
   }
+  .girl-and-boy-cleaning-service-2{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 200px;
+    z-index: 1;
+  }
   
   .girl-and-boy-cleaning-service-1{
     position: absolute;
@@ -205,21 +214,58 @@
   }
 
   @media only screen and (max-width: 1024px) {
+    .ContactUsBlockLeft {
+      width: 100%;
+    }
+    
     .ContactUsBlockRight{
-      max-width: 420px !important;
+      max-width: 420px;
+    }
+    .ContactUsBanner{
+      height: 100%
+    }
+
+    .ContactUsBanner h3{
+      max-width: 510px;
+    }
+
+    .ContactUsBanner button{
+      max-width: 400px;
+    }
+
+
+    .girl-and-boy-cleaning-service-3{
+      width: 226px;
+      height: 315px;
+      left: 0;
+    }
+
+    .girl-and-boy-cleaning-service-1{
+      bottom: 20px;
+      width: 226px;
+      height: 315px;
+      right: 0;
     }
   }
   
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 658px) {
     .girl-and-boy-cleaning-service-3{
       display: none !important;
     }
     
+    .girl-and-boy-cleaning-service-2{
+      display: block;
+    }
+
     .girl-and-boy-cleaning-service-1{
       display: none !important;
     }
 
-  .ContactUsBlock{
-    display: block;
-  }
+    .ContactUsBlock{
+      display: block;
+    }
+
+    .ContactUsBlockRight{
+      max-width: 100%;
+    }
   }

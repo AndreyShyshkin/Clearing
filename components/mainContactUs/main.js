@@ -2,6 +2,7 @@ import instagram from '/public/images/instagram.svg';
 import facebook from '/public/images/facebook.svg';
 import whats_app from '/public/images/whats-app.svg';
 import girl_and_boy_cleaning_service_3 from '/public/images/girl-and-boy-cleaning-service-3.png';
+import girl_and_boy_cleaning_service_2 from '/public/images/girl-and-boy-cleaning-service-2.png';
 import girl_and_boy_cleaning_service_1 from '/public/images/girl-and-boy-cleaning-service-1.png';
 import './style.css';
 
@@ -42,6 +43,7 @@ function mainContactUs(){
     </div>
     <div class="ContactUsBanner">
       <img src="${girl_and_boy_cleaning_service_3}" alt="girl-and-boy-cleaning-service-3" class="girl-and-boy-cleaning-service-3">
+      <img src="${girl_and_boy_cleaning_service_2}" alt="girl-and-boy-cleaning-service-2" class="girl-and-boy-cleaning-service-2">
       <img src="${girl_and_boy_cleaning_service_1}" alt="girl-and-boy-cleaning-service-1" class="girl-and-boy-cleaning-service-1">
       <div>
         <h3>Досить витрачати свій вільний час на прибирання! Замовляйте <span>місячну</span> <span>підписку</span> на клінінг вашого дому!</h3>

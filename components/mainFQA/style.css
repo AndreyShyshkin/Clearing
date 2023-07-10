@@ -65,3 +65,15 @@
   
     color: #FFF;
   }
+
+  @media only screen and (max-width: 1024px) {
+    .FQABlocks{
+      padding: 72px 36px;
+    }  
+  }
+  
+  @media only screen and (max-width: 658px) {
+    .FQABlocks{
+      padding: 32px 16px;
+    }
+  }

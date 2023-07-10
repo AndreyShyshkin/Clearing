@@ -117,14 +117,21 @@
     }
   }
   
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 658px) {
     .trustBlocksLine{
-      margin: 32px 16px;
+      margin: 32px auto;
       display: block;
     }
 
+    .trustBlocks{
+      padding: 0 10px;
+    }
+
+    .trustBlock{
+      margin: 0 auto;
+    }
+
     .trustBlockLeft{
-      margin-right: 0;
       margin-bottom: 32px;
     }
 

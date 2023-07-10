@@ -30,8 +30,12 @@
   
     border-radius: 30px;
     background: #F4F4F8;
-    margin-left: 30px;
+    
     padding-bottom: 60px;
+  }
+
+  .includedBlock01{
+    margin-right: 30px;
   }
   
   .includedBlock h3{
@@ -179,11 +183,18 @@
   
 
   @media only screen and (max-width: 1024px) {
-
+    .includedBlock{
+      max-width: 330px;
+    }
   }
   
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 658px) {
     .includedBlocks{
       display: block;
     } 
+
+    .includedBlock{
+      margin: 24px auto;
+      max-width: 100%;
+    }
   }

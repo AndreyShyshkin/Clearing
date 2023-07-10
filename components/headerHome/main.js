@@ -8,9 +8,6 @@ import './style.css';
 function headerHome(){
     document.querySelector('.home').innerHTML = `
     <div class="container">
-    <div class="homeImg">
-      <img src="${illustration}" alt="illustration">
-    </div>
     <div class="mainScreen">
       <h1>
         <span class="highlighting">Приберемо</span> у вашому будинку чи квартирі
@@ -20,6 +17,9 @@ function headerHome(){
         Клінінгова компанія Comfort Group пропонує акційну підписку на послуги клінінгу у Лодзі всього за <b>399zł</b>. Підписка включає прибирання в кімнатах, санвузлі та кухні.
       </h2>
       <button class="order">Замовити прибирання</button>
+    </div>
+    <div class="homeImg">
+      <img src="${illustration}" alt="illustration">
     </div>
   </div>
   <div class="container features">

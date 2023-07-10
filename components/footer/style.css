@@ -51,7 +51,7 @@ footer{
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    width: 566px;
+    max-width: 566px;
   }
   
   .footerSecurity p{
@@ -73,7 +73,7 @@ footer{
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 658px) {
   .footerMenu{
     display: block !important;
   }
@@ -82,11 +82,12 @@ footer{
     display: block !important;
   }
 
-  .footerSecurity .footerSecurityLink p{
-    margin-top: 0;
-  }
-
   .footerSecurity p{
     margin-top: 110px;
+    text-align: center;
+  }
+
+  .footerSecurityLink > .footerSecurity > p{
+    margin-top: 5px;
   }
 }
