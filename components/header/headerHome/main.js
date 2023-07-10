@@ -1,4 +1,4 @@
-import illustration from '/public/images/illustration.png';
+import illustration from '/public/images/illustrationHome.png';
 import './style.css';
 
 function headerHome(){

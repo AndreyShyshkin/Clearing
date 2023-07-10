@@ -144,7 +144,7 @@
   
   .block3{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .block3 > div{

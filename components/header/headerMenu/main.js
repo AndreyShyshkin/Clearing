@@ -5,13 +5,26 @@ import logo from '/public/images/logo.svg';
 import menu from '/public/images/menu.svg';
 import './style.css';
 
+document.addEventListener("DOMContentLoaded", function() {
+  let switcherBlock = document.querySelectorAll(".switcherBlock");
+  let currentPage = window.location.pathname;
+
+  if (currentPage.includes("pages/office")) {
+    switcherBlock[0].classList.remove("switcherActive");
+    switcherBlock[1].classList.add("switcherActive");
+  } else if (currentPage.includes("/")) {
+    switcherBlock[1].classList.remove("switcherActive");
+    switcherBlock[0].classList.add("switcherActive");
+  }
+});
+
 function headerMenu(){
     document.querySelector('.menu').innerHTML = `
     <div class="container">
     <a href="/index.html"><img src="${logo}" alt="logo"></a>
     <div class="switcher">
-      <p class="switcherBlock switcherActive">Дім</p>
-      <p class="switcherBlock">Офіс</p>
+      <a href="/"><p class="switcherBlock">Дім</p></a>
+      <a href="/pages/office/"><p class="switcherBlock">Офіс</p></a>
     </div>
     <div class="menuLinks">
       <a href="#">Після ремонту</a>

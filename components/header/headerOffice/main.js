@@ -1,4 +1,4 @@
-import illustration from '/public/images/illustration.png';
+import illustration from '/public/images/illustrationOffice.png';
 import './style.css';
 
 function headerOffice(){
@@ -12,7 +12,13 @@ function headerOffice(){
     <h2 class="info">
     Професійний клінінг для офісних приміщень та ресторанів від компанії Comfort Group. Попередня вартість прибирання 2zł за м².
     </h2>
+    <ul>
+      <li><div class="circle"></div>Офісні приміщення</li>
+      <li><div class="circle"></div>Магазини</li>
+      <li><div class="circle"></div>Ресторани</li>
+    </ul>
     <button class="order">Замовити прибирання</button>
+    <button class="order-sell10">Отримати знижку 10%</button>
   </div>
   <div class="homeImg">
     <img src="${illustration}" alt="illustration">
