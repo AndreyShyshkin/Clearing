@@ -17,12 +17,12 @@ if(document.querySelector('.menu')){
 
 if(document.querySelector('.home')){
     headerHome();
-    headerFeatures();
+    headerFeatures('.home');
 }
 
 if(document.querySelector('.office')){
     headerOffice();
-    headerFeatures();
+    headerFeatures('.office');
 }
 
 if(document.querySelector('.included')){

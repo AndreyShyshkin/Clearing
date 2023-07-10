@@ -4,8 +4,8 @@ import vacuum_cleaner from '/public/images/vacuum_cleaner.png';
 import badge from '/public/images/badge.png';
 import './style.css';
 
-function headerFeatures(){
-    document.querySelector('.home').innerHTML += `
+function headerFeatures(place){
+    document.querySelector(place).innerHTML += `
 
 <div class="container features">
   <div class="row">
