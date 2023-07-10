@@ -1,19 +1,28 @@
-import headerMenu from "./components/headerMenu/main";
-import headerHome from "./components/headerHome/main";
-import mainIncluded from "./components/mainIncluded/main";
-import mainSubscribe from "./components/mainSubscribe/main";
-import mainReviews from "./components/mainReviews/main";
-import mainTrust from "./components/mainTrust/main";
-import mainFQA from "./components/mainFQA/main";
-import mainContactUs from "./components/mainContactUs/main";
+import headerMenu from "./components/header/headerMenu/main";
+import headerHome from "./components/header/headerHome/main";
+import headerOffice from "./components/header/headerOffice/main";
+import headerFeatures from "./components/header/features/main";
+import mainIncluded from "./components/main/mainIncluded/main";
+import mainSubscribe from "./components/main/mainSubscribe/main";
+import mainReviews from "./components/main/mainReviews/main";
+import mainTrust from "./components/main/mainTrust/main";
+import mainFQA from "./components/main/mainFQA/main";
+import mainContactUs from "./components/main/mainContactUs/main";
 import footer from "./components/footer/main";
 
 
 if(document.querySelector('.menu')){
     headerMenu();
 }
+
 if(document.querySelector('.home')){
     headerHome();
+    headerFeatures();
+}
+
+if(document.querySelector('.office')){
+    headerOffice();
+    headerFeatures();
 }
 
 if(document.querySelector('.included')){
