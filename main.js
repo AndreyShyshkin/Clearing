@@ -9,6 +9,7 @@ import mainTrust from "./components/main/mainTrust/main";
 import mainFQA from "./components/main/mainFQA/main";
 import mainContactUs from "./components/main/mainContactUs/main";
 import mainPlacesCleanUp from "./components/main/mainPlacesCleanUp/main";
+import mainCalculator from "./components/main/mainCalculator/main"; 
 import footer from "./components/footer/main";
 
 
@@ -28,6 +29,10 @@ if(document.querySelector('.office')){
 
 if(document.querySelector('.placesCleanUp')){
     mainPlacesCleanUp();
+}
+
+if(document.querySelector('.calculator')){
+    mainCalculator();
 }
 
 if(document.querySelector('.included')){
