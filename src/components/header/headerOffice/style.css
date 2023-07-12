@@ -1,0 +1,89 @@
+h1{
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    max-width: 678px;
+    padding-top: 148px;
+    margin: 0;
+  }
+  
+  .home{
+      background: #F4F4F8;
+  }
+  
+  .mainScreen{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .highlighting{
+    color: #4D1299;
+  }
+  
+  .info{
+    max-width: 604px;
+  
+    font-size: 18px;
+  
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .order{
+    border-radius: 50px;
+    background: #4D1299;
+    color: #FFF;
+    padding: 18px 26px;
+  
+    cursor: pointer;
+  
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 16px;
+  }
+  
+  .order-sell10{
+    border-radius: 50px;
+    border: 2px solid #4D1299;
+    background: #FFF;
+    color: #4D1299;
+    padding: 18px 26px;
+  
+    cursor: pointer;
+  
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .homeImg{
+    position: absolute;
+    z-index: 1;
+    right: 80px;
+    top: 250px;
+  }
+  
+  ul > li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  ul{
+    margin-bottom: 52px;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .homeImg img{
+      width: 100%;
+    }
+    .homeImg{
+      position: relative;
+      right: 0;
+      top: 0;
+    }
+  }
