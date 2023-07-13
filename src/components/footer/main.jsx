@@ -48,7 +48,7 @@ function FooterMenu() {
                         </div>
                     </div>
                     </div>
-                    <div className="footerSecurity footerSecurityLink">
+                    <div className="footerSecurityLink">
                     <p>©2023 Всі права захищено</p>
                     <div className="footerSecurity">
                     <p>Політика конфіденційності</p>

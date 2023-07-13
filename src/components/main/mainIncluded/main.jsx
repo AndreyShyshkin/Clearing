@@ -29,9 +29,9 @@ function MainIncluded() {
             </div>
           </div>
           <div className="mainSwitcherRooms">
-            <div className="SwitcherRoom SwitcherRoomActive">Кухня</div>
-            <div className="SwitcherRoom">Кімнати</div>
-            <div className="SwitcherRoom">Санвузол</div>
+            <div className="SwitcherRoom SwitcherRoomActive"><a href="#">Кухня</a></div>
+            <div className="SwitcherRoom"><a href="#">Кімнати</a></div>
+            <div className="SwitcherRoom"><a href="#">Санвузол</a></div>
           </div>
           <div className="switcherRoomsImg">
             <div className="plusBloks">

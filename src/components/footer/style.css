@@ -40,13 +40,31 @@ footer{
     font-weight: 700;
     line-height: normal;
   }
-  
+
   .socialsFooter img{
     background-color: #FFF;
     border-radius: 100px;
     cursor: pointer;
+    margin-right: 15px;
   }
+
+  .footerSecurityLink{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 566px;
+  }
+
+  .footerSecurityLink > p{
+    color: rgba(27, 27, 27, 0.60);
+    font-size: 12px;
   
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+  }
+
   .footerSecurity{
     display: flex;
     justify-content: space-around;
@@ -55,16 +73,13 @@ footer{
   }
   
   .footerSecurity p{
+    margin-right: 30px;
+
     margin-top: 110px;
     color: rgba(27, 27, 27, 0.60);
     font-size: 12px;
   
     cursor: pointer;
-  }
-
-  .footerSecurityLink{
-    display: flex;
-    justify-content: space-around;
   }
 
 @media only screen and (max-width: 1024px) {

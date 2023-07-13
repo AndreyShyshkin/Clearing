@@ -13,6 +13,10 @@ a{
   color: black;
 }
 
+*:not(:hover) {
+  transition: 1s;
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -41,6 +45,17 @@ body{
   min-height: 11px;
   margin-right: 12px;
 }
+
+button:hover{
+  padding-block: 3%;
+  padding-inline: 3%;
+  transition: 1s;
+}
+
+a:hover{
+  color: #4D1299;
+}
+
 
 @media only screen and (max-width: 1024px) {
   .container{

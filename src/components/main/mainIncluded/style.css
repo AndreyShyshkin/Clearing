@@ -84,8 +84,11 @@
   
   .SwitcherRoomActive{
     border-radius: 50px;
-    color: white;
     background: #4D1299;
+  }
+
+  .SwitcherRoomActive a{
+    color: white !important;
   }
   
   .switcherRoomsImg{
@@ -185,6 +188,10 @@
   @media only screen and (max-width: 1024px) {
     .includedBlock{
       max-width: 330px;
+    }
+
+    .textPlusBlock p{
+      font-size: 9px;
     }
   }
   

@@ -139,7 +139,7 @@
     color: white;
     background-color: tomato;
     border-radius: 50px;
-    padding: 2px;
+    padding: 2px 8px;
   }
   
   .block3{
@@ -226,6 +226,12 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+  }
+
+  .banner1Left button:hover{
+    padding-block: 8%;
+    padding-inline: 8%;
+    transition: 1s;
   }
 
   @media only screen and (max-width: 1024px) {
