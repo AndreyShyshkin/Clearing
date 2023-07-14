@@ -12,6 +12,10 @@
   
     padding-top: 115px;
     padding-bottom: 15px;
+
+    max-width: 737px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .subscribeInfo{

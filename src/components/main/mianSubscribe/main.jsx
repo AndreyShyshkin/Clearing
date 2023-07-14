@@ -20,13 +20,22 @@ function MainSubscribe() {
               </p>
               {mainSubscribeBanner1()}
             </>
+          ) : currentPage === "/pages/calculator/" || currentPage === "/pages/calculator/index.html" ? (
+            <>
+              <h2>Ціна на прибирання квартир та будинків</h2>
+              {mainSubscribeBanner1()}
+            </>
           ) : null}
 
-          {mainSubscribeBanner2()}
-          {mainSubscribeBlock3()}
-          {mainSubscribeBlock4()}
+          {currentPage !== "/pages/calculator/" && currentPage !== "/pages/calculator/index.html" ? (
+            <>
+              {mainSubscribeBanner2()}
+              {mainSubscribeBlock3()}
+              {mainSubscribeBlock4()}
+              <button className="buySubscribe">Замовити прибирання</button>
+            </>
+          ) : null}
 
-          <button className="buySubscribe">Замовити прибирання</button>
         </div>
       </div>
     </>

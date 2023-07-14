@@ -32,7 +32,7 @@ function HeaderMenu() {
           </div>
           <div className="menuLinks">
             <a href="/pages/afterRenovation/">Після ремонту</a>
-            <a href="#">Розрахунок вартості</a>
+            <a href="/pages/calculator/">Розрахунок вартості</a>
           </div>
           <div className="social">
             <a href="#"><img src={instagram} alt="instagram" /></a>

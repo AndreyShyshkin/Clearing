@@ -6,6 +6,7 @@ import HeaderHome from './components/header/headerHome/main'
 import HeaderOffice from './components/header/headerOffice/main'
 import HeaderAfterRenovation from './components/header/headerAfterRenovation/main'
 import MainIncluded from './components/main/mainIncluded/main'
+import IncludedBlocks from './components/main/mainIncluded/includedBlocks'
 import MainSubscribe from './components/main/mianSubscribe/main'
 import MainReviews from './components/main/mainReviews/main'
 import MainTrust from './components/main/mainTrust/main'
@@ -25,6 +26,11 @@ ReactDOM.createRoot(document.getElementById('Page')).render(
       <>
         <HeaderHome />
         <MainIncluded />
+        <MainSubscribe />
+        <MainReviews />
+        <MainTrust />
+        <MainFQA />
+        <MainContactUs />
       </>
     )}
     {(currentPage === "/pages/office/" || currentPage === "/pages/office/index.html") && (
@@ -32,6 +38,11 @@ ReactDOM.createRoot(document.getElementById('Page')).render(
         <HeaderOffice />
         <MainPlacesCleanUp />
         <MainCalculator />
+        <MainSubscribe />
+        <MainReviews />
+        <MainTrust />
+        <MainFQA />
+        <MainContactUs />
       </>
     )}
 
@@ -40,14 +51,36 @@ ReactDOM.createRoot(document.getElementById('Page')).render(
         <HeaderAfterRenovation />
         <MainPlacesCleanUp />
         <MainCalculator />
+        <MainSubscribe />
+        <MainReviews />
+        <MainTrust />
+        <MainFQA />
+        <MainContactUs />
       </>
     )}
 
-    <MainSubscribe />
-    <MainReviews />
-    <MainTrust />
-    <MainFQA />
-    <MainContactUs />
+    {(currentPage === "/pages/FQA/" || currentPage === "/pages/FQA/index.html") && (
+        <>
+        <MainFQA />
+      </>
+    )}
+
+    {(currentPage === "/pages/contactUs/" || currentPage === "/pages/contactUs/index.html") && (
+        <>
+        <MainContactUs />
+      </>
+    )}
+
+{(currentPage === "/pages/calculator/" || currentPage === "/pages/calculator/index.html") && (
+        <>
+        <MainSubscribe />
+        <IncludedBlocks />
+        <MainCalculator />
+        <MainReviews />
+      </>
+    )}
+
+    
     <FooterMenu />
   </React.StrictMode>,
 )
