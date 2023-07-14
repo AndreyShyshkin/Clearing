@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+
 import react from '@vitejs/plugin-react'
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
@@ -9,7 +11,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        nested: resolve(__dirname, 'pages/office/index.html'),
+        office: resolve(__dirname, 'pages/office/index.html'),
+        renovation: resolve(__dirname, 'pages/afterRenovation/index.html'),
       },
     },
   },

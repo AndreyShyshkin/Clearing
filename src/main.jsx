@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import HeaderMenu from './components/header/headerMenu/main'
 import HeaderHome from './components/header/headerHome/main'
 import HeaderOffice from './components/header/headerOffice/main'
+import HeaderAfterRenovation from './components/header/headerAfterRenovation/main'
 import MainIncluded from './components/main/mainIncluded/main'
 import MainSubscribe from './components/main/mianSubscribe/main'
 import MainReviews from './components/main/mainReviews/main'
@@ -16,7 +17,6 @@ import FooterMenu from './components/footer/main'
 import './index.css'
 
 const currentPage = window.location.pathname;
-console.log(currentPage);
 
 ReactDOM.createRoot(document.getElementById('Page')).render(
   <React.StrictMode>
@@ -34,6 +34,15 @@ ReactDOM.createRoot(document.getElementById('Page')).render(
         <MainCalculator />
       </>
     )}
+
+    {(currentPage === "/pages/afterRenovation/" || currentPage === "/pages/afterRenovation/index.html") && (
+        <>
+        <HeaderAfterRenovation />
+        <MainPlacesCleanUp />
+        <MainCalculator />
+      </>
+    )}
+
     <MainSubscribe />
     <MainReviews />
     <MainTrust />
