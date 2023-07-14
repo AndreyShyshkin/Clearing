@@ -16,6 +16,7 @@ export default defineConfig({
         FQA: resolve(__dirname, 'pages/FQA/index.html'),
         contactUs: resolve(__dirname, 'pages/contactUs/index.html'),
         calculator: resolve(__dirname, 'pages/calculator/index.html'),
+        services: resolve(__dirname, 'pages/services/index.html'),
       },
     },
   },

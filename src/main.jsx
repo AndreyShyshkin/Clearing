@@ -14,6 +14,7 @@ import MainFQA from './components/main/mainFQA/main'
 import MainContactUs from './components/main/mainContactUs/main'
 import MainPlacesCleanUp from './components/main/mainPlacesCleanUp/main'
 import MainCalculator from './components/main/mainCalculator/main'
+import MainServices from './components/main/mainServices/main'
 import FooterMenu from './components/footer/main'
 import './index.css'
 
@@ -33,7 +34,8 @@ ReactDOM.createRoot(document.getElementById('Page')).render(
         <MainContactUs />
       </>
     )}
-    {(currentPage === "/pages/office/" || currentPage === "/pages/office/index.html") && (
+
+    {(currentPage === "/pages/office/" || currentPage === "/pages/office" || currentPage === "/pages/office/index.html") && (
       <>
         <HeaderOffice />
         <MainPlacesCleanUp />
@@ -46,7 +48,7 @@ ReactDOM.createRoot(document.getElementById('Page')).render(
       </>
     )}
 
-    {(currentPage === "/pages/afterRenovation/" || currentPage === "/pages/afterRenovation/index.html") && (
+    {(currentPage === "/pages/afterRenovation/" || currentPage === "/pages/afterRenovation" || currentPage === "/pages/afterRenovation/index.html") && (
         <>
         <HeaderAfterRenovation />
         <MainPlacesCleanUp />
@@ -59,19 +61,25 @@ ReactDOM.createRoot(document.getElementById('Page')).render(
       </>
     )}
 
-    {(currentPage === "/pages/FQA/" || currentPage === "/pages/FQA/index.html") && (
+    {(currentPage === "/pages/FQA/" || currentPage === "/pages/FQA" || currentPage === "/pages/FQA/index.html") && (
         <>
         <MainFQA />
       </>
     )}
 
-    {(currentPage === "/pages/contactUs/" || currentPage === "/pages/contactUs/index.html") && (
+    {(currentPage === "/pages/contactUs/" || currentPage === "/pages/contactUs" || currentPage === "/pages/contactUs/index.html") && (
         <>
         <MainContactUs />
       </>
     )}
 
-{(currentPage === "/pages/calculator/" || currentPage === "/pages/calculator/index.html") && (
+    {(currentPage === "/pages/services/" || currentPage === "/pages/services" || currentPage === "/pages/services/index.html") && (
+        <>
+        <MainServices />
+      </>
+    )}
+
+    {(currentPage === "/pages/calculator/" || currentPage === "/pages/calculator" || currentPage === "/pages/calculator/index.html") && (
         <>
         <MainSubscribe />
         <IncludedBlocks />

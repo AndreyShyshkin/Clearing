@@ -15,18 +15,18 @@ function FooterMenu() {
                         <div>
                             <h3>Про нас</h3>
                             <ul>
-                                <li><a href="#">Послуги</a></li>
-                                <li><a href="#">Вартість</a></li>
-                                <li><a href="#">Питання</a></li>
-                                <li><a href="#">Контакти</a></li>
+                                <li><a href="/pages/services">Послуги</a></li>
+                                <li><a href="/pages/calculator">Вартість</a></li>
+                                <li><a href="/pages/FQA">Питання</a></li>
+                                <li><a href="/pages/contactUs">Контакти</a></li>
                             </ul>
                         </div>
                         <div>
                             <h3>Послуги</h3>
                             <ul>
-                                <li><a href="#">Прибирання квартир та будинків</a></li>
-                                <li><a href="#">Прибирання офісів та ресторанів</a></li>
-                                <li><a href="#">Прибирання після ремонту</a></li>
+                                <li><a href="/">Прибирання квартир та будинків</a></li>
+                                <li><a href="/pages/office">Прибирання офісів та ресторанів</a></li>
+                                <li><a href="/pages/afterRenovation">Прибирання після ремонту</a></li>
                             </ul>
                         </div>
                     </div>
@@ -35,9 +35,9 @@ function FooterMenu() {
                             <h3>Контакти</h3>
                             <ul className="contactFooter">
                                 <li>на зв’язку 24/7</li>
-                                <li><a href="#">+48 534 517 801</a></li>
-                                <li><a href="#">пошта</a></li>
-                                <li><a href="#">адреса</a></li>
+                                <li><a href="/pages/contactUs">+48 534 517 801</a></li>
+                                <li><a href="/pages/contactUs">пошта</a></li>
+                                <li><a href="/pages/contactUs">адреса</a></li>
                             </ul>
                         </div>
                         <div className="socialsFooter">
