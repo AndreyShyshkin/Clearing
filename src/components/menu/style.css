@@ -25,7 +25,7 @@
       linear-gradient(-45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa)));
 }
 
-.menuClick > img{
+.menuHeader > a > img{
     display: none;
 }
 
@@ -120,7 +120,7 @@
     } 
 
     .menuBlock{
-        padding: 153px 20px;
+        padding: 65px 20px;
         padding-bottom: 81px;
     }
     
@@ -137,7 +137,7 @@
         position: initial;
     }
 
-    .menuClick > img{
+    .menuHeader > a > img{
         display: block;
     }
 

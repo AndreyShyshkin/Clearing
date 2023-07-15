@@ -1,5 +1,7 @@
 import './style.css'
 
+import logoInv from '/src/assets/images/logoInv.svg';
+
 import instagram from '/src/assets/images/instagram.svg';
 import facebook from '/src/assets/images/facebook.svg';
 import whats_app from '/src/assets/images/whats-app.svg';
@@ -10,7 +12,7 @@ function Menu() {
     <>
       <div className="menuClick">
         <div className='menuHeader'>
-            <a href="/"><img src="/src/assets/images/logoInv.svg" alt="logoInv" /></a>
+            <a href="/"><img src={logoInv} alt="logoInv" /></a>
             <div className="switcher">
                 <a href="/"><p className="switcherBlock">Дім</p></a>
                 <a href="/pages/office/"><p className="switcherBlock">Офіс</p></a>
