@@ -1,0 +1,147 @@
+.menuClick{
+    position: fixed;
+    right: 0;
+    width: 600px;
+    height: 100%;
+
+    background: #4D1299;
+    color: #FFF;
+    display: none;
+    z-index: 9999;
+}
+
+.closeMenu {
+    position: fixed;
+    top: 40px;
+    right: 138px;
+    width: 28px;
+    height: 28px;
+    --weight: 3px;
+    --aa: 1px; /* anti-aliasing */
+    --color: #FFF;
+    border-radius: 3px;
+    background:
+      linear-gradient(45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa))),
+      linear-gradient(-45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa)));
+}
+
+.menuClick > img{
+    display: none;
+}
+
+.menuHeader{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuHeader > .switcher{
+    display: none;
+    border: 2px solid #EBE7F3;
+}
+
+.menuHeader .switcherBlock {
+    color: #FFF;
+}
+
+.menuHeader .switcherActive{
+    background: #FFF;
+    color: #4D1299;
+}
+
+.closeMenu:hover{
+    transform: rotate(1080deg);
+    transition: 1s;
+}
+
+.menuBlock {
+  padding: 167px 77px;
+  padding-bottom: 93px;
+  color: #FFF;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.menuBlock a {  
+    color: #FFF;
+}
+
+.menuBlock a:hover {  
+    color: gold;
+}
+
+.menuContact{
+    padding-left: 77px;
+    display: flex;
+    align-items: center;
+}
+
+.menuContact img{
+    background-color: #FFF;
+    border-radius: 100%;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.menuTell{
+    color: #4D1299;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 18px 26px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .menuBlock{
+        padding: 215px 61px;
+        padding-bottom: 96px;
+    }
+    
+    .menuContact{
+        padding-left: 61px;
+    }
+
+    .menuContact img{
+        width: 32px;
+        height: 32px;
+    }
+
+    .closeMenu {
+        right: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 658px) {
+    .menuClick{
+        width: 100%;
+    } 
+
+    .menuBlock{
+        padding: 153px 20px;
+        padding-bottom: 81px;
+    }
+    
+    .menuContact{
+        padding-left: 20px;
+    }
+
+    .menuContact img{
+        width: 32px;
+        height: 32px;
+    }
+
+    .closeMenu {
+        position: initial;
+    }
+
+    .menuClick > img{
+        display: block;
+    }
+
+    .menuHeader > .switcher{
+        display: flex;
+    }
+  }

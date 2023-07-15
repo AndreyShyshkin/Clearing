@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
+import Menu from './components/menu/main'
 import HeaderMenu from './components/header/headerMenu/main'
 import HeaderHome from './components/header/headerHome/main'
 import HeaderOffice from './components/header/headerOffice/main'
@@ -22,6 +23,7 @@ const currentPage = window.location.pathname;
 
 ReactDOM.createRoot(document.getElementById('Page')).render(
   <React.StrictMode>
+    <Menu />
     <HeaderMenu />
     {(currentPage === "/" || currentPage === "/index.html") && (
       <>

@@ -9,15 +9,20 @@ import { useEffect } from 'react';
 
 function HeaderMenu() {
   useEffect(() => {
-    const switcherBlock = document.querySelectorAll(".switcherBlock");
+    const switcherBlock = document.querySelectorAll(".menu .container .switcher  .switcherBlock");
+    const switcherBlockMenu = document.querySelectorAll(".menuHeader .switcher  .switcherBlock");
     const currentPage = window.location.pathname;
 
     if (currentPage.includes("pages/office")) {
       switcherBlock[0].classList.remove("switcherActive");
       switcherBlock[1].classList.add("switcherActive");
+      switcherBlockMenu[0].classList.remove("switcherActive");
+      switcherBlockMenu[1].classList.add("switcherActive");
     } else if (currentPage.includes("/")) {
       switcherBlock[1].classList.remove("switcherActive");
       switcherBlock[0].classList.add("switcherActive");
+      switcherBlockMenu[1].classList.remove("switcherActive");
+      switcherBlockMenu[0].classList.add("switcherActive");
     }
   }, []);
 
@@ -40,7 +45,7 @@ function HeaderMenu() {
             <a href="#"><img src={whats_app} alt="whats-app" /></a>
           </div>
           <a href="tell:+48534517801" className="tell">+48 534 517 801</a>
-          <img src={menu} alt="menu" className="menuIcon" />
+          <img src={menu} onClick={() => openMenu()} alt="menu" className="menuIcon" />
         </div>
       </div>
     </>
@@ -48,3 +53,11 @@ function HeaderMenu() {
 }
 
 export default HeaderMenu
+
+function openMenu(){
+  const menuClick = document.querySelectorAll(".menuClick");
+
+  menuClick.forEach((element) => {
+    element.style.display = "block";
+  });
+}

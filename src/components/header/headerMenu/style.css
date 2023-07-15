@@ -66,6 +66,11 @@
     cursor: pointer;
   }
 
+  .menuIcon:hover{
+    transform: rotate(1080deg);
+    transition: 1s;
+  }
+
   @media only screen and (max-width: 1024px) {
     .menuLinks{
       display: none;
