@@ -48,4 +48,8 @@
         max-width: 100%;
         margin-bottom: 32px;
     }
+
+    .placesCleanUp h2{
+        font-size: 24px;
+    }
   }
