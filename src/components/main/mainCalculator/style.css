@@ -283,24 +283,52 @@
     color: #FFF;
 }
 
+.sell10FullScreen{
+    display: block;
+}
+
+.sell10Mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1024px) {
     .calculatorBlock{
         display: block;
     }  
     .sell10{
-        bottom: -310px;
-        right: 0;
-        top: auto;
+        position: inherit;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+
+    .resultSell {
+      display: flex;
     }
 
     .calculator-result{
         margin-top: 60px;
+    }
+
+    .sell10FullScreen{
+        display: none;
+    }
+
+    .sell10Mobile{
+        display: block;
     }
   }
   
   @media only screen and (max-width: 658px) {
     .Places > div{
         padding: 9px 27px;
+    }
+
+    .sell10{
+        margin: 0 auto;
+    }
+
+    .sell10 h2{
+        padding-top: 30px;
     }
 
     .calculator-form{
@@ -331,5 +359,18 @@
 
     .Places{
         font-size: 14px;
+    }
+
+    .calculator-result{
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .calculator-result > div{
+        width: 80%;
+    }
+
+    .resultSell{
+        display: block;
     }
   }

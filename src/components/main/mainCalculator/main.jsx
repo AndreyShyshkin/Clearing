@@ -114,23 +114,30 @@ function MainCalculator() {
                         </div>
 
 
-                        <div className="sell10">
+                        <div className="sell10 sell10FullScreen">
                             <h2>-10%</h2>
                             <p>на перше прибирання!</p>
                             <p className="first">*вкажіть що це ваше перше замовлення у полі з коментарем</p>
                         </div>
                     </div>
-                    <div className="calculator-result">
-                        <div className="resultMaket">
-                            <p>Послуга</p>
-                            <p>Вартість</p>
+                    <div className="resultSell">
+                        <div className="calculator-result">
+                            <div className="resultMaket">
+                                <p>Послуга</p>
+                                <p>Вартість</p>
+                            </div>
+                            <div className="result"></div>
+                            <div className="resultPrice">
+                                <p>Вартість</p>
+                                <p><span>0</span>zł</p>
+                            </div>
+                            <button>Замовити прибирання</button>
                         </div>
-                        <div className="result"></div>
-                        <div className="resultPrice">
-                            <p>Вартість</p>
-                            <p><span>0</span>zł</p>
+                        <div className="sell10 sell10Mobile">
+                                <h2>-10%</h2>
+                                <p>на перше прибирання!</p>
+                                <p className="first">*вкажіть що це ваше перше замовлення у полі з коментарем</p>
                         </div>
-                        <button>Замовити прибирання</button>
                     </div>
                 </div>
             </div>
