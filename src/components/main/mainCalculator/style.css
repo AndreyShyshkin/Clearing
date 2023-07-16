@@ -309,6 +309,13 @@
         margin-top: 60px;
     }
 
+    .result > div{
+        margin: 5px 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
     .sell10FullScreen{
         display: none;
     }

@@ -4,7 +4,27 @@ import KEY from '/src/assets/images/KEY.png'
 import cardPay from '/src/assets/images/cardPay.png'
 import cashPay from '/src/assets/images/cashPay.png'
 
+import { useState } from 'react';
+
 function MainCalculator() {
+
+    const [areaSize, setAreaSize] = useState(1);
+    const [areaPrice, setAreaPrice] = useState(2);
+    const [price, setPrice] = useState(2);
+  
+    const handleMinusClick = () => {
+        if (areaSize > 1) {
+          setAreaSize(areaSize - 1);
+          setPrice(price - 2);
+          setAreaPrice(areaPrice - 2);
+        }
+      };
+  
+    const handlePlusClick = () => {
+      setAreaSize(areaSize + 1);
+      setPrice(price + 2);
+      setAreaPrice(areaPrice + 2);
+    };
 
   return (
     <>
@@ -24,9 +44,9 @@ function MainCalculator() {
                         <div className="Size">
                             <h4>Оберіть площу приміщення</h4>
                             <div className="area">
-                                <div className="minus"><p>-</p></div>
+                                <div className="minus" onClick={handleMinusClick}><p>-</p></div>
                                 <div className="areaSize"><span>1</span> м²</div>
-                                <div className="plus"><p>+</p></div>
+                                <div className="plus" onClick={handlePlusClick}><p>+</p></div>
                             </div>
                             <p>2zł за м²</p>
                         </div>
@@ -126,10 +146,15 @@ function MainCalculator() {
                                 <p>Послуга</p>
                                 <p>Вартість</p>
                             </div>
-                            <div className="result"></div>
+                            <div className="result">
+                                <div>
+                                    <p>Площа: {areaSize} м² </p>
+                                    <p>{areaPrice}zł</p>
+                                </div>
+                            </div>
                             <div className="resultPrice">
                                 <p>Вартість</p>
-                                <p><span>0</span>zł</p>
+                                <p><span>{price}</span>zł</p>
                             </div>
                             <button>Замовити прибирання</button>
                         </div>
