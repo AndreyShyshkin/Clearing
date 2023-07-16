@@ -328,4 +328,8 @@
         padding: 0;
         width: 100%;
     }
+
+    .Places{
+        font-size: 14px;
+    }
   }
