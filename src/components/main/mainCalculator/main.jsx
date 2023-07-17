@@ -4,9 +4,13 @@ import KEY from '/src/assets/images/KEY.png'
 import cardPay from '/src/assets/images/cardPay.png'
 import cashPay from '/src/assets/images/cashPay.png'
 
+import check from '/src/assets/images/check.png'
+
 import { useState } from 'react';
 
 function MainCalculator() {
+
+    const [selectedServices, setSelectedServices] = useState([]);
 
     const [areaSize, setAreaSize] = useState(1);
     const [areaPrice, setAreaPrice] = useState(2);
@@ -25,6 +29,27 @@ function MainCalculator() {
       setPrice(price + 2);
       setAreaPrice(areaPrice + 2);
     };
+
+    const handleServiceClick = (service, servicePrice) => {
+        const serviceIndex = selectedServices.findIndex((selectedService) => selectedService.service === service);
+
+        if (serviceIndex !== -1) {
+            setSelectedServices((prevSelectedServices) => prevSelectedServices.filter((_, index) => index !== serviceIndex));
+            setPrice(price - servicePrice);
+        } else {
+            setSelectedServices((prevSelectedServices) => [...prevSelectedServices, { service, servicePrice }]);
+            setPrice(price + servicePrice);
+        }
+    }
+    
+    const getServiceImage = (service) => {
+        const serviceIndex = selectedServices.findIndex(
+          (selectedService) => selectedService.service === service
+        );
+        return serviceIndex !== -1 ? check : '';
+      };
+      
+      
 
   return (
     <>
@@ -52,32 +77,32 @@ function MainCalculator() {
                         </div>
                         <div className="services">
                             <h4>Додаткові послуги</h4>
-                            <div>
-                                <div className="checkbox"></div> <p>Миття вікон (стандартні) - 35zł</p>
+                            <div onClick={() => handleServiceClick("Миття вікон (стандартні)", 35)}>
+                                <div className="checkbox"><img src={getServiceImage("Миття вікон (стандартні)")} /></div> <p>Миття вікон (стандартні) - 35zł</p>
                             </div>
-                            <div>
-                                <div className="checkbox"></div> <p>Миття вікон (до підлоги) - 40zł</p>
+                            <div onClick={() => handleServiceClick("Миття вікон (до підлоги)", 40)}>
+                                <div className="checkbox"><img src={getServiceImage("Миття вікон (до підлоги)")} /></div> <p>Миття вікон (до підлоги) - 40zł</p>
                             </div>
-                            <div>
-                                <div className="checkbox"></div> <p>Мікрохвильовка - 15zł</p>
+                            <div onClick={() => handleServiceClick("Мікрохвильовка", 15)}>
+                                <div className="checkbox"><img src={getServiceImage("Мікрохвильовка")} /></div> <p>Мікрохвильовка - 15zł</p>
                             </div>
-                            <div>
-                                <div className="checkbox"></div> <p>Холодильник - 40zł</p>
+                            <div onClick={() => handleServiceClick("Холодильник", 40)}>
+                                <div className="checkbox"><img src={getServiceImage("Холодильник")} /></div> <p>Холодильник - 40zł</p>
                             </div>
-                            <div>
-                                <div className="checkbox"></div> <p>Плита - 35zł</p>
+                            <div onClick={() => handleServiceClick("Плита", 35)}>
+                                <div className="checkbox"><img src={getServiceImage("Плита")} /></div> <p>Плита - 35zł</p>
                             </div>
-                            <div>
-                                <div className="checkbox"></div> <p>Хімчистка офісних стільчиків - 20zł</p>
+                            <div onClick={() => handleServiceClick("Хімчистка офісних стільчиків", 20)}>
+                                <div className="checkbox"><img src={getServiceImage("Хімчистка офісних стільчиків")} /></div> <p>Хімчистка офісних стільчиків - 20zł</p>
                             </div>
-                            <div>
-                                <div className="checkbox"></div> <p>Хімчистка дивану 2х - 109,99zł</p>
+                            <div onClick={() => handleServiceClick("Хімчистка дивану 2х", 109.99)}>
+                                <div className="checkbox"><img src={getServiceImage("Хімчистка дивану 2х")} /></div> <p>Хімчистка дивану 2х - 109,99zł</p>
                             </div>
-                            <div>
-                                <div className="checkbox"></div> <p>Хімчистка дивану 3х - 129,99zł</p>
+                            <div onClick={() => handleServiceClick("Хімчистка дивану 3х", 129.99)}>
+                                <div className="checkbox"><img src={getServiceImage("Хімчистка дивану 3х")} /></div> <p>Хімчистка дивану 3х - 129,99zł</p>
                             </div>
-                            <div>
-                                <div className="checkbox"></div> <p>Хімчистка дивану 4х - 149,99zł</p>
+                            <div onClick={() => handleServiceClick("Хімчистка дивану 4х", 149.99)}>
+                                <div className="checkbox"><img src={getServiceImage("Хімчистка дивану 4х")} /></div> <p>Хімчистка дивану 4х - 149,99zł</p>
                             </div>
                         </div>
                         <div className="keys">
@@ -151,6 +176,15 @@ function MainCalculator() {
                                     <p>Площа: {areaSize} м² </p>
                                     <p>{areaPrice}zł</p>
                                 </div>
+
+                                {selectedServices.length > 0 && selectedServices.map((selectedService, index) => (
+                                    <div key={index}>
+                                        <p>{selectedService.service}</p>
+                                        <p>{selectedService.servicePrice}zł</p>
+                                    </div>
+                                ))}
+
+
                             </div>
                             <div className="resultPrice">
                                 <p>Вартість</p>

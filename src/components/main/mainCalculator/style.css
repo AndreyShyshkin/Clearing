@@ -258,7 +258,6 @@
 
     border-radius: 30px;
     background: #FFF;
-    height: 100%;
 }
 
 .calculator-result > div{
@@ -270,6 +269,14 @@
 .result{
     border-top: 1px solid rgba(77, 18, 153, 0.50);
     border-bottom: 1px solid rgba(77, 18, 153, 0.50);
+    display: block !important;
+}
+
+.result > div{
+    margin: 5px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .calculator-result button{
@@ -307,13 +314,6 @@
 
     .calculator-result{
         margin-top: 60px;
-    }
-
-    .result > div{
-        margin: 5px 0;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
     }
 
     .sell10FullScreen{
