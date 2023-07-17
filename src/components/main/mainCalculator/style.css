@@ -124,6 +124,7 @@
     background: #4D1299;
     color: #FFF;
     border-radius: 60px;
+    cursor: pointer;
 }
 
 .area > .plus > p{
@@ -140,6 +141,7 @@
     background: rgba(77, 18, 153, 0.50);
     color: #FFF;
     border-radius: 60px;
+    cursor: pointer;
 }
 
 .area > .minus > p{
