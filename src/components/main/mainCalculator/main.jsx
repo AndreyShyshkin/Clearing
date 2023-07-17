@@ -15,6 +15,12 @@ function MainCalculator() {
     const [areaSize, setAreaSize] = useState(1);
     const [areaPrice, setAreaPrice] = useState(2);
     const [price, setPrice] = useState(2);
+
+    const [activeItem, setActiveItem] = useState("Офіс");
+
+    const handleItemClick = (item) => {
+      setActiveItem(item);
+    };
   
       const handleMinusClick = () => {
         if (areaSize > 1) {
@@ -61,9 +67,24 @@ function MainCalculator() {
                         <div className="ViewPlaces">
                             <h4>Вид приміщення</h4>
                             <div className="Places">
-                                <div className="active">Офіс</div>
-                                <div>Магазин</div>
-                                <div>Ресторан</div>
+                                <div
+                                    className={activeItem === 'Офіс' ? 'active' : ''}
+                                    onClick={() => handleItemClick('Офіс')}
+                                >
+                                    Офіс
+                                </div>
+                                <div
+                                    className={activeItem === 'Магазин' ? 'active' : ''}
+                                    onClick={() => handleItemClick('Магазин')}
+                                >
+                                    Магазин
+                                </div>
+                                <div
+                                    className={activeItem === 'Ресторан' ? 'active' : ''}
+                                    onClick={() => handleItemClick('Ресторан')}
+                                >
+                                    Ресторан
+                                </div>
                             </div>
                         </div>
                         <div className="Size">
