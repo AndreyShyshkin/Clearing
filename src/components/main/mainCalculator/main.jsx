@@ -16,7 +16,7 @@ function MainCalculator() {
     const [areaPrice, setAreaPrice] = useState(2);
     const [price, setPrice] = useState(2);
   
-    const handleMinusClick = () => {
+      const handleMinusClick = () => {
         if (areaSize > 1) {
           setAreaSize(areaSize - 1);
           setPrice(price - 2);
@@ -69,9 +69,9 @@ function MainCalculator() {
                         <div className="Size">
                             <h4>Оберіть площу приміщення</h4>
                             <div className="area">
-                                <div className="minus" onClick={handleMinusClick}><p>-</p></div>
-                                <div className="areaSize"><span>1</span> м²</div>
-                                <div className="plus" onClick={handlePlusClick}><p>+</p></div>
+                            <div className={`minus ${areaSize > 1 ? 'largerArea' : ''}`}  onClick={handleMinusClick}><p>-</p></div>
+                            <div className="areaSize"><span>{areaSize}</span> м²</div>
+                            <div className="plus" onClick={handlePlusClick}><p>+</p></div>
                             </div>
                             <p>2zł за м²</p>
                         </div>
