@@ -102,9 +102,13 @@
     color:black;
 }
 
-.Places > .active{
-    background: #4D1299;
-    color: #FFF;
+.active{
+    background: #4D1299 !important;
+    color: #FFF !important;
+}
+
+.active p{
+    color: #FFF !important;
 }
 
 .area{

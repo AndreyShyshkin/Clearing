@@ -17,11 +17,21 @@ function MainCalculator() {
     const [price, setPrice] = useState(2);
 
     const [activeItem, setActiveItem] = useState("Офіс");
+    const [activeKey, setActiveKey] = useState("");
+    const [activePay, setActivePay] = useState("");
 
     const handleItemClick = (item) => {
       setActiveItem(item);
     };
+
+    const handleKeyClick = (item) => {
+        setActiveKey(item);
+      };
   
+      const handlePayClick = (item) => {
+        setActivePay(item);
+      };
+
       const handleMinusClick = () => {
         if (areaSize > 1) {
           setAreaSize(areaSize - 1);
@@ -129,11 +139,17 @@ function MainCalculator() {
                         <div className="keys">
                             <h4>Доставимо ключі</h4>
                             <div>
-                                <div>
+                                <div
+                                className={activeKey === 'перед' ? 'active' : ''}
+                                onClick={() => handleKeyClick('перед')}
+                                >
                                     <img src={KEY} alt="KEY" />
                                     <p>Забрати ключі перед прибиранням</p>
                                 </div>
-                                <div>
+                                <div
+                                className={activeKey === 'після' ? 'active' : ''}
+                                onClick={() => handleKeyClick('після')}
+                                >
                                     <img src={KEY} alt="KEY" />
                                     <p>Доставити ключі після прибирання</p>
                                 </div>
@@ -169,11 +185,17 @@ function MainCalculator() {
                             </div>
                         </div>
                         <div className="pay">
-                            <div>
+                            <div
+                            className={activePay === 'cardPay' ? 'active' : ''}
+                            onClick={() => handlePayClick('cardPay')}
+                            >
                                 <img src={cardPay} alt="cardPay" />
                                 <p>Картой online / Apple Pay / Google Pay</p>
                             </div>
-                            <div>
+                            <div
+                            className={activePay === 'cashPay' ? 'active' : ''}
+                            onClick={() => handlePayClick('cashPay')}
+                            >
                                 <img src={cashPay} alt="cashPay" />
                                 <p>Готівкою</p>
                             </div>
