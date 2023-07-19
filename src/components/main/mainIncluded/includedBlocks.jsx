@@ -8,7 +8,7 @@ function IncludedBlocks() {
         const includedBlock = document.querySelectorAll(".includedBlock");
         const currentPage = window.location.pathname;
     
-        if (currentPage === "/pages/calculator/" || currentPage === "/pages/calculator/index.html") {
+        if (currentPage == "/pages/calculator/" || currentPage == "/pages/calculator/index.html") {
             includedBlocks[0].classList.add("container");
             includedBlock.forEach((element) => {
                 element.style.backgroundColor = "white";

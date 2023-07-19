@@ -58,7 +58,7 @@ function MainCalculator() {
     };
 
     const handleServiceClick = (service, servicePrice) => {
-        const serviceIndex = selectedServices.findIndex((selectedService) => selectedService.service === service);
+        const serviceIndex = selectedServices.findIndex((selectedService) => selectedService.service == service);
 
         if (serviceIndex !== -1) {
             setSelectedServices((prevSelectedServices) => prevSelectedServices.filter((_, index) => index !== serviceIndex));
@@ -71,7 +71,7 @@ function MainCalculator() {
     
     const getServiceImage = (service) => {
         const serviceIndex = selectedServices.findIndex(
-          (selectedService) => selectedService.service === service
+          (selectedService) => selectedService.service == service
         );
         return serviceIndex !== -1 ? check : '';
       };
@@ -89,19 +89,19 @@ function MainCalculator() {
                             <h4>Вид приміщення</h4>
                             <div className="Places">
                                 <div
-                                    className={activeItem === 'Офіс' ? 'active' : ''}
+                                    className={activeItem == 'Офіс' ? 'active' : ''}
                                     onClick={() => handleItemClick('Офіс')}
                                 >
                                     Офіс
                                 </div>
                                 <div
-                                    className={activeItem === 'Магазин' ? 'active' : ''}
+                                    className={activeItem == 'Магазин' ? 'active' : ''}
                                     onClick={() => handleItemClick('Магазин')}
                                 >
                                     Магазин
                                 </div>
                                 <div
-                                    className={activeItem === 'Ресторан' ? 'active' : ''}
+                                    className={activeItem == 'Ресторан' ? 'active' : ''}
                                     onClick={() => handleItemClick('Ресторан')}
                                 >
                                     Ресторан
@@ -151,14 +151,14 @@ function MainCalculator() {
                             <h4>Доставимо ключі</h4>
                             <div>
                                 <div
-                                className={activeKey === 'перед' ? 'active' : ''}
+                                className={activeKey == 'перед' ? 'active' : ''}
                                 onClick={() => handleKeyClick('перед')}
                                 >
                                     <img src={KEY} alt="KEY" />
                                     <p>Забрати ключі перед прибиранням</p>
                                 </div>
                                 <div
-                                className={activeKey === 'після' ? 'active' : ''}
+                                className={activeKey == 'після' ? 'active' : ''}
                                 onClick={() => handleKeyClick('після')}
                                 >
                                     <img src={KEY} alt="KEY" />
@@ -201,14 +201,14 @@ function MainCalculator() {
                         </div>
                         <div className="pay">
                             <div
-                            className={activePay === 'cardPay' ? 'active' : ''}
+                            className={activePay == 'cardPay' ? 'active' : ''}
                             onClick={() => handlePayClick('cardPay')}
                             >
                                 <img src={cardPay} alt="cardPay" />
                                 <p>Картой online / Apple Pay / Google Pay</p>
                             </div>
                             <div
-                            className={activePay === 'cashPay' ? 'active' : ''}
+                            className={activePay == 'cashPay' ? 'active' : ''}
                             onClick={() => handlePayClick('cashPay')}
                             >
                                 <img src={cashPay} alt="cashPay" />

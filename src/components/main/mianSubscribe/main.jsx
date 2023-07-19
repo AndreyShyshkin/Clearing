@@ -11,7 +11,7 @@ function MainSubscribe() {
     <>
       <div className="subscribe">
         <div className="container">
-          {currentPage === "/" || currentPage === "/index.html" ? (
+          {currentPage == "/" || currentPage == "/index.html" ? (
             <>
               <h2>Пакет прибирання на місяць</h2>
               <p className="subscribeInfo">
@@ -20,7 +20,7 @@ function MainSubscribe() {
               </p>
               {mainSubscribeBanner1()}
             </>
-          ) : currentPage === "/pages/calculator/" || currentPage === "/pages/calculator" || currentPage === "/pages/calculator/index.html" ? (
+          ) : currentPage == "/pages/calculator/" || currentPage == "/pages/calculator" || currentPage == "/pages/calculator/index.html" ? (
             <>
               <h2>Ціна на прибирання квартир та будинків</h2>
               {mainSubscribeBanner1()}
