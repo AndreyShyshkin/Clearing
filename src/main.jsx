@@ -50,7 +50,7 @@ ReactDOM.createRoot(document.getElementById('Page')).render(
       </>
     )}
 
-    {(currentPage == "/pages/afterRenovation/" || currentPage == "/pages/afterRenovation" || currentPage == "/pages/afterRenovation/index.html") && (
+    {(currentPage == "/pages/afterrenovation/" || currentPage == "/pages/afterrenovation" || currentPage == "/pages/afterrenovation/index.html") && (
         <>
         <HeaderAfterRenovation />
         <MainPlacesCleanUp />
@@ -63,13 +63,13 @@ ReactDOM.createRoot(document.getElementById('Page')).render(
       </>
     )}
 
-    {(currentPage == "/pages/FQA/" || currentPage == "/pages/FQA" || currentPage == "/pages/FQA/index.html") && (
+    {(currentPage == "/pages/fqa/" || currentPage == "/pages/fqa" || currentPage == "/pages/fqa/index.html") && (
         <>
         <MainFQA />
       </>
     )}
 
-    {(currentPage == "/pages/contactUs/" || currentPage == "/pages/contactUs" || currentPage == "/pages/contactUs/index.html") && (
+    {(currentPage == "/pages/contactus/" || currentPage == "/pages/contactus" || currentPage == "/pages/contactus/index.html") && (
         <>
         <MainContactUs />
       </>
