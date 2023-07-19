@@ -234,6 +234,10 @@
     margin: 8px 0;
 }
 
+.confirm a{
+    color: #4D1299;
+}
+
 .pay{
     display: flex;
 }

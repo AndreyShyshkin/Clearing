@@ -20,6 +20,9 @@ function MainCalculator() {
     const [activeKey, setActiveKey] = useState("");
     const [activePay, setActivePay] = useState("");
 
+    const [confidentialityСheck, setConfidentiality] = useState(false);
+    const [personalDataСheck, setPersonalData] = useState(false);
+
     const handleItemClick = (item) => {
       setActiveItem(item);
     };
@@ -31,6 +34,14 @@ function MainCalculator() {
       const handlePayClick = (item) => {
         setActivePay(item);
       };
+
+      const confidentialityClick = () => {
+        setConfidentiality(!confidentialityСheck);
+      }
+
+      const personalDataClick = () => {
+        setPersonalData(!personalDataСheck);
+      }
 
       const handleMinusClick = () => {
         if (areaSize > 1) {
@@ -171,16 +182,20 @@ function MainCalculator() {
                                 <input type="date" placeholder="На коли хочете прибирання?" />
                                 <input type="time" placeholder="На котру годину?" />
                                 <input type="text" placeholder="Ваша повна адреса (включаючи номер будинку та квартиру)" />
-                                <input type="text" placeholder="Ваш коментар" />
+                                <textarea type="text" style={{height: '90px', width: '100%'}} placeholder="Ваш коментар" />
                             </div>
                         </div>
                         <div className="confirm">
-                            <div>
-                                <div className="checkbox"></div>
-                                <p>Оформлюючи замовлення я погоджуюсь з договором публічної оферти та політикою конфіденційності</p>
+                            <div onClick={confidentialityClick}>
+                                <div className="checkbox">
+                                {confidentialityСheck && <img src={check} alt="" />}
+                                </div>
+                                <p>Оформлюючи замовлення я погоджуюсь <a href="#">з договором публічної оферти та політикою конфіденційності</a></p>
                             </div>
-                            <div>
-                                <div className="checkbox"></div>
+                            <div onClick={personalDataClick}>
+                                <div className="checkbox">
+                                {personalDataСheck && <img src={check} alt="" />}
+                                </div>
                                 <p>Я даю згоду для використання моїх особистих данних в цілях відправки підписки та акційних пропозицій</p>
                             </div>
                         </div>
