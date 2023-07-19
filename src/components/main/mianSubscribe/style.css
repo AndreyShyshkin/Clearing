@@ -232,12 +232,6 @@
     line-height: normal;
   }
 
-  .banner1Left button:hover{
-    padding-block: 8%;
-    padding-inline: 8%;
-    transition: 1s;
-  }
-
   @media only screen and (max-width: 1024px) {
     .banner1Container{
       display: block;

@@ -47,9 +47,10 @@ body{
 }
 
 button:hover{
-  padding-block: 3%;
-  padding-inline: 3%;
+  padding-block: 1.75rem;
+  padding-inline: 2rem;
   transition: 1s;
+  cursor: pointer;
 }
 
 a:hover{
@@ -62,6 +63,10 @@ a:hover{
     padding: 0 39px;
     max-width: calc(690px + 39px);
   }  
+
+  h1{
+    font-size: 36px;
+  }
 }
 
 @media only screen and (max-width: 658px) {
@@ -69,4 +74,9 @@ a:hover{
     padding: 0 20px;
     max-width: calc(690px + 20px);
   } 
+
+  h1{
+    font-size: 26px;
+  }
+
 }
