@@ -53,7 +53,7 @@ function MainContactUs() {
               <h3>Досить витрачати свій вільний час на прибирання! Замовляйте <span>місячну</span> <span>підписку</span> на клінінг вашого дому!</h3>
               <h4>399zł</h4>
               <p>1 генеральне прибирання + 1 підтримуюче прибирання</p>
-              <button> <a href="/pages/calculator/">Замовити прибирання</a> </button>
+              <a href="/pages/calculator/"><button>Замовити прибирання</button></a> 
             </div>
           </div>
         </div>

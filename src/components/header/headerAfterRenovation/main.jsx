@@ -17,8 +17,8 @@ function HeaderAfterRenovation() {
                 <h2 className="info">
                 Усунемо наслідки ремонту будь-якох складності та підготуємо приміщення для вашого переїзду! Попередня вартість прибирання 5zł за м²
                 </h2>
-                <button className="order"> <a href="/pages/calculator/">Замовити прибирання</a> </button>
-                <button className="order-sell10"><a href="/pages/calculator/">Отримати знижку 10%</a></button>
+                <a href="/pages/calculator/"><button className="order">Замовити прибирання</button></a> 
+                <a href="/pages/calculator/"><button className="order-sell10">Отримати знижку 10%</button></a>
             </div>
             <div className="homeImg">
                 <img src={illustration} alt="illustration" />

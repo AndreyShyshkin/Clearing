@@ -248,7 +248,7 @@ function MainCalculator() {
                                 <p>Вартість</p>
                                 <p><span>{price}</span>zł</p>
                             </div>
-                            <button> <a href="/">Замовити прибирання</a></button>
+                            <a href="/"><button>Замовити прибирання</button></a>
                         </div>
                         <div className="sell10 sell10Mobile">
                                 <h2>-10%</h2>

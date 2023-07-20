@@ -98,8 +98,8 @@ function MainReviews() {
             </div>
           </div>
           <div className="btnsRewiew">
-            <button className="btnRewiew btnRewiewActive">Залишити відгук у Google</button>
-            <button className="btnRewiew">Залишити відгук у Facebook</button>
+            <a href="#"><button className="btnRewiew btnRewiewActive">Залишити відгук у Google</button></a>
+            <a href="#"><button className="btnRewiew">Залишити відгук у Facebook</button></a>
           </div>
         </div>
       </div>

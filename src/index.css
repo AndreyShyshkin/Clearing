@@ -53,6 +53,10 @@ button:hover{
   cursor: pointer;
 }
 
+a:hover > button{
+  color: gold;
+}
+
 a:hover{
   color: #4D1299;
 }
@@ -60,16 +64,6 @@ a:hover{
 button > a{
   color: #FFF;
 }
-
-button > a:hover{
-  color: gold;
-}
-
-button:hover > a{
-  color: gold;
-}
-
-
 
 @media only screen and (max-width: 1024px) {
   .container{

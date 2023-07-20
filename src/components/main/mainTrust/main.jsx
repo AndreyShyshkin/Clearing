@@ -48,7 +48,7 @@ function MainTrust() {
                 <img src={vecteezy_hand_brush_cleaner} alt="vecteezy-hand-brush-cleaner" className="vecteezy-hand-brush-cleaner" />
               </div>
             </div>
-            <button className="btnTrust"> <a href="/pages/calculator/">Замовити прибирання</a></button>
+            <a href="/pages/calculator/"><button className="btnTrust">Замовити прибирання</button></a>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ function mainSubscribeBanner1() {
                 <div className="banner1Left">
                 <h3>399zł</h3>
                 <p>1 генеральне прибирання + 1 підтримуюче прибирання</p>
-                <button>Замовити прибирання</button>
+                <a href='/pages/calculator/'><button>Замовити прибирання</button></a>
                 </div>
             </div>
         </div>
