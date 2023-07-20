@@ -7,6 +7,7 @@
     border-radius: 100px;
 
     margin-right: 16px;
+    cursor: pointer;
 }
 
 .calculator{
@@ -194,6 +195,7 @@
     border: 2px solid #4D1299;
     color: #4D1299;
     margin-left: 13px;
+    cursor: pointer;
 }
 
 .keys > div p{
@@ -262,6 +264,7 @@
     border-radius: 50px;
     border: 2px solid #4D1299;
     margin-right: 16px;
+    cursor: pointer;
 }
 
 .pay > div > p{
