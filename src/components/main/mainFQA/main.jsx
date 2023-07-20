@@ -103,7 +103,7 @@ function MainFQA() {
                   </summary>
                   <p>Na naszej stronie możesz od razu zamówić i opłacić sprzątanie! Wpisz swoje dane, datę i adres w formularzu oraz wybierz dogodną formę płatności (online lub gotówka na spotkaniu). Ponadto na naszej stronie możesz obliczyć koszt sprzątania lokalu za pomocą kalkulatora!</p>
                 </details>
-                <button className="btnFQA">Задати своє питання</button>
+                <button className="btnFQA"> <a href="/pages/fqa/">Задати своє питання</a></button>
               </div>
           </div>
         </div>

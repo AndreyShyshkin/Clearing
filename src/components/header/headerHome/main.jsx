@@ -18,7 +18,7 @@ function HeaderHome() {
                     <h2 className="info">
                     Клінінгова компанія Comfort Group пропонує акційну підписку на послуги клінінгу у Лодзі всього за <b>399zł</b>. Підписка включає прибирання в кімнатах, санвузлі та кухні.
                     </h2>
-                    <button className="order">Замовити прибирання</button>
+                    <button className="order"> <a href="/pages/calculator/"> Замовити прибирання</a></button>
                 </div>
                 <div className="homeImg">
                     <img src={illustration} alt="illustration" />

@@ -32,7 +32,7 @@ function MainSubscribe() {
               {mainSubscribeBanner2()}
               {mainSubscribeBlock3()}
               {mainSubscribeBlock4()}
-              <button className="buySubscribe">Замовити прибирання</button>
+              <button className="buySubscribe"><a href='/pages/calculator/'>Замовити прибирання</a></button>
             </>
           ) : null}
 

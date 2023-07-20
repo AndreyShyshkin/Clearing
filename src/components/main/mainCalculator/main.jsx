@@ -182,7 +182,7 @@ function MainCalculator() {
                                 <input type="date" placeholder="На коли хочете прибирання?" />
                                 <input type="time" placeholder="На котру годину?" />
                                 <input type="text" placeholder="Ваша повна адреса (включаючи номер будинку та квартиру)" />
-                                <textarea type="text" style={{height: '90px', width: '100%'}} placeholder="Ваш коментар" />
+                                <textarea type="text" style={{height: '90px', width: '100%',resize: 'none'}} placeholder="Ваш коментар" />
                             </div>
                         </div>
                         <div className="confirm">
@@ -248,7 +248,7 @@ function MainCalculator() {
                                 <p>Вартість</p>
                                 <p><span>{price}</span>zł</p>
                             </div>
-                            <button>Замовити прибирання</button>
+                            <button> <a href="/">Замовити прибирання</a></button>
                         </div>
                         <div className="sell10 sell10Mobile">
                                 <h2>-10%</h2>

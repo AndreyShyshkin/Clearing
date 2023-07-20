@@ -23,8 +23,8 @@ function HeaderOffice() {
                 <li><div className="circle"></div>Магазини</li>
                 <li><div className="circle"></div>Ресторани</li>
                 </ul>
-                <button className="order">Замовити прибирання</button>
-                <button className="order-sell10">Отримати знижку 10%</button>
+                <button className="order"> <a href="/pages/calculator/">Замовити прибирання</a> </button>
+                <button className="order-sell10"><a href="/pages/calculator/">Отримати знижку 10%</a></button>
             </div>
             <div className="homeImg">
                 <img src={illustration} alt="illustration" />
