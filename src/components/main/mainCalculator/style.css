@@ -224,6 +224,15 @@
     margin-bottom: 28px;
 }
 
+.yourInfo textarea{
+    height: 90px;
+    width: 100%;
+    resize: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgba(77, 18, 153, 0.50);
+}
+
 .confirm{
     margin-top: 40px;
     margin-bottom: 52px;
