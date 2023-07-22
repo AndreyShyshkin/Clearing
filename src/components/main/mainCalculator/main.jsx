@@ -8,12 +8,9 @@ import check from '/src/assets/images/check.png'
 
 import { useState } from 'react';
 import { useForm } from 'react-hook-form'
-import { useNavigate } from 'react-router-dom';
 
 
 function MainCalculator() {
-
-    const navigate = useNavigate();
 
     const {
         register,
@@ -56,7 +53,7 @@ function MainCalculator() {
         data.services = services;
 
         console.log(data);
-        navigate('/pages/afterpay/'); 
+        window.location.href = '/pages/afterpay/';
     }
 
 
