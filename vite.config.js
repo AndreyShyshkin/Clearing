@@ -17,6 +17,7 @@ export default defineConfig({
         contactUs: resolve(__dirname, 'pages/contactUs/index.html'),
         calculator: resolve(__dirname, 'pages/calculator/index.html'),
         services: resolve(__dirname, 'pages/services/index.html'),
+        afterPay: resolve(__dirname, 'pages/afterPay/index.html'),
       },
     },
   },

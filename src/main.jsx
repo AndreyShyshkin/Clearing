@@ -1,5 +1,5 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom';
 
 import Menu from './components/menu/main'
 import HeaderMenu from './components/header/headerMenu/main'
@@ -16,13 +16,14 @@ import MainContactUs from './components/main/mainContactUs/main'
 import MainPlacesCleanUp from './components/main/mainPlacesCleanUp/main'
 import MainCalculator from './components/main/mainCalculator/main'
 import MainServices from './components/main/mainServices/main'
+import AfterPay from './components/main/afterPay/main';
 import FooterMenu from './components/footer/main'
 import './index.css'
 
 const currentPage = window.location.pathname;
 
 ReactDOM.createRoot(document.getElementById('Page')).render(
-  <React.StrictMode>
+  <BrowserRouter>
     <Menu />
     <HeaderMenu />
     {(currentPage == "/" || currentPage == "/index.html") && (
@@ -90,7 +91,13 @@ ReactDOM.createRoot(document.getElementById('Page')).render(
       </>
     )}
 
+{(currentPage == "/pages/afterpay/" || currentPage == "/pages/afterpay" || currentPage == "/pages/afterpay/index.html") && (
+        <>
+        <AfterPay />
+      </>
+    )}
+
     
     <FooterMenu />
-  </React.StrictMode>,
+  </BrowserRouter>,
 )

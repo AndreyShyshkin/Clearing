@@ -1,0 +1,33 @@
+.AfterPay{
+    display: flex;
+}
+
+.AfterPay h2 {
+    margin: 0 auto;
+    margin-top: 136px;
+    margin-bottom: 30px;
+    text-align: center;
+  
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.AfterPay button{
+    display: flex;
+    padding: 18px 26px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  
+    border-radius: 50px;
+    background: #4D1299;
+  
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 136px;
+}
