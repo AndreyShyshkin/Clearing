@@ -60,7 +60,10 @@ function MainCalculator() {
         data.services = services;
 
         console.log(data);
-        window.location.href = '/pages/afterpay/';
+
+        setTimeout(() => {
+            window.location.href = '/pages/afterpay/'; 
+          }, 5000);
     }
 
 
