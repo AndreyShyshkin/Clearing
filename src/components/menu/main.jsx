@@ -22,8 +22,8 @@ function Menu() {
         <div className="menuBlock">
             <p><a href="/pages/services/">Послуги</a></p>
             <p><a href="/pages/calculator/">Розрахунок вартості</a></p>
-            <p><a href="/pages/FQA/">Актуальні запитання</a></p>
-            <p><a href="/pages/contactUs/">Контакти </a></p>
+            <p><a href="/pages/fqa/">Актуальні запитання</a></p>
+            <p><a href="/pages/contactus/">Контакти </a></p>
         </div>
         <div className="menuContact">
             <div>

@@ -12,6 +12,8 @@ import { useForm } from 'react-hook-form'
 
 function MainCalculator() {
 
+    const currentPage = window.location.pathname;
+
     const {
         register,
         handleSubmit,
@@ -35,6 +37,11 @@ function MainCalculator() {
 
         if(!activePay) {
             alert('Ви спосіб оплати не вибрали');
+            return;
+        }
+
+        if(!activeItem || activeItem === "") {
+            alert('Ви не вибрали місце для прибирання');
             return;
         }
 
@@ -63,16 +70,24 @@ function MainCalculator() {
     const [areaPrice, setAreaPrice] = useState(2);
     const [price, setPrice] = useState(2);
 
-    const [activeItem, setActiveItem] = useState("Офіс");
+    const [activeItem, setActiveItem] = useState("");
     const [activeKey, setActiveKey] = useState("");
     const [activePay, setActivePay] = useState("");
 
     const [confidentialityСheck, setConfidentiality] = useState(false);
     const [personalDataСheck, setPersonalData] = useState(false);
-
+    
     const handleItemClick = (item) => {
       setActiveItem(item);
     };
+
+    window.onload = () => {
+        if(currentPage !== "/pages/calculator/" && currentPage !== "/pages/calculator" && currentPage !== "/pages/calculator/index.html"){
+            handleItemClick('')
+        }else{
+            handleItemClick('Дім')
+        } 
+    }
 
     const handleKeyClick = (item) => {
         setActiveKey(item);
@@ -133,6 +148,8 @@ function MainCalculator() {
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="calculatorBlock">
                         <div className="calculator-form">
+                        {currentPage !== "/pages/calculator/" && currentPage !== "/pages/calculator" && currentPage !== "/pages/calculator/index.html" ? (
+                            <>
                             <div className="ViewPlaces">
                                 <h4>Вид приміщення</h4>
                                 <div className="Places">
@@ -156,6 +173,8 @@ function MainCalculator() {
                                     </div>
                                 </div>
                             </div>
+                            </>
+                        ) : null}
                             <div className="Size">
                                 <h4>Оберіть площу приміщення</h4>
                                 <div className="area">
@@ -173,27 +192,31 @@ function MainCalculator() {
                                 <div onClick={() => handleServiceClick("Миття вікон (до підлоги)", 40)}>
                                     <div className="checkbox"><img src={getServiceImage("Миття вікон (до підлоги)")} /></div> <p>Миття вікон (до підлоги) - 40zł</p>
                                 </div>
-                                <div onClick={() => handleServiceClick("Мікрохвильовка", 15)}>
-                                    <div className="checkbox"><img src={getServiceImage("Мікрохвильовка")} /></div> <p>Мікрохвильовка - 15zł</p>
-                                </div>
-                                <div onClick={() => handleServiceClick("Холодильник", 40)}>
-                                    <div className="checkbox"><img src={getServiceImage("Холодильник")} /></div> <p>Холодильник - 40zł</p>
-                                </div>
-                                <div onClick={() => handleServiceClick("Плита", 35)}>
-                                    <div className="checkbox"><img src={getServiceImage("Плита")} /></div> <p>Плита - 35zł</p>
-                                </div>
-                                <div onClick={() => handleServiceClick("Хімчистка офісних стільчиків", 20)}>
-                                    <div className="checkbox"><img src={getServiceImage("Хімчистка офісних стільчиків")} /></div> <p>Хімчистка офісних стільчиків - 20zł</p>
-                                </div>
-                                <div onClick={() => handleServiceClick("Хімчистка дивану 2х", 109.99)}>
-                                    <div className="checkbox"><img src={getServiceImage("Хімчистка дивану 2х")} /></div> <p>Хімчистка дивану 2х - 109,99zł</p>
-                                </div>
-                                <div onClick={() => handleServiceClick("Хімчистка дивану 3х", 129.99)}>
-                                    <div className="checkbox"><img src={getServiceImage("Хімчистка дивану 3х")} /></div> <p>Хімчистка дивану 3х - 129,99zł</p>
-                                </div>
-                                <div onClick={() => handleServiceClick("Хімчистка дивану 4х", 149.99)}>
-                                    <div className="checkbox"><img src={getServiceImage("Хімчистка дивану 4х")} /></div> <p>Хімчистка дивану 4х - 149,99zł</p>
-                                </div>
+                                {currentPage !== "/pages/calculator/" && currentPage !== "/pages/calculator" && currentPage !== "/pages/calculator/index.html" ? (
+                                    <>
+                                    <div onClick={() => handleServiceClick("Мікрохвильовка", 15)}>
+                                        <div className="checkbox"><img src={getServiceImage("Мікрохвильовка")} /></div> <p>Мікрохвильовка - 15zł</p>
+                                    </div>
+                                    <div onClick={() => handleServiceClick("Холодильник", 40)}>
+                                        <div className="checkbox"><img src={getServiceImage("Холодильник")} /></div> <p>Холодильник - 40zł</p>
+                                    </div>
+                                    <div onClick={() => handleServiceClick("Плита", 35)}>
+                                        <div className="checkbox"><img src={getServiceImage("Плита")} /></div> <p>Плита - 35zł</p>
+                                    </div>
+                                    <div onClick={() => handleServiceClick("Хімчистка офісних стільчиків", 20)}>
+                                        <div className="checkbox"><img src={getServiceImage("Хімчистка офісних стільчиків")} /></div> <p>Хімчистка офісних стільчиків - 20zł</p>
+                                    </div>
+                                    <div onClick={() => handleServiceClick("Хімчистка дивану 2х", 109.99)}>
+                                        <div className="checkbox"><img src={getServiceImage("Хімчистка дивану 2х")} /></div> <p>Хімчистка дивану 2х - 109,99zł</p>
+                                    </div>
+                                    <div onClick={() => handleServiceClick("Хімчистка дивану 3х", 129.99)}>
+                                        <div className="checkbox"><img src={getServiceImage("Хімчистка дивану 3х")} /></div> <p>Хімчистка дивану 3х - 129,99zł</p>
+                                    </div>
+                                    <div onClick={() => handleServiceClick("Хімчистка дивану 4х", 149.99)}>
+                                        <div className="checkbox"><img src={getServiceImage("Хімчистка дивану 4х")} /></div> <p>Хімчистка дивану 4х - 149,99zł</p>
+                                    </div>
+                                    </>
+                                ) : null}
                             </div>
                             <div className="keys">
                                 <h4>Доставимо ключі</h4>

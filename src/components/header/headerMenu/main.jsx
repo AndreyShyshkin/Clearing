@@ -36,7 +36,7 @@ function HeaderMenu() {
             <a href="/pages/office/"><p className="switcherBlock">Офіс</p></a>
           </div>
           <div className="menuLinks">
-            <a href="/pages/afterRenovation/">Після ремонту</a>
+            <a href="/pages/afterrenovation/">Після ремонту</a>
             <a href="/pages/calculator/">Розрахунок вартості</a>
           </div>
           <div className="social">
