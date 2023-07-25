@@ -205,4 +205,12 @@
       margin: 24px auto;
       max-width: 100%;
     }
+
+    .mainSwitcherRooms{
+      display: none;
+    }
+
+    .SwitcherRoomsImg{
+      display: none;
+    }
   }
