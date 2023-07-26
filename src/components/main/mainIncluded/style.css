@@ -206,11 +206,7 @@
       max-width: 100%;
     }
 
-    .mainSwitcherRooms{
+    .plusBloks > div{
       display: none;
-    }
-
-    .SwitcherRoomsImg{
-      display: none;
-    }
+    }   
   }

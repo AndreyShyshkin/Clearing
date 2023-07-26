@@ -65,6 +65,10 @@ button > a{
   color: #FFF;
 }
 
+span{
+  line-height: 60px;
+}
+
 @media only screen and (max-width: 1024px) {
   .container{
     padding: 0 39px;
