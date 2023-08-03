@@ -1,55 +1,55 @@
-.placesCleanUp{
-    color: #1B1B1B;
-    text-align: center;
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    background: #FFF;
-    padding: 116px 0;
+.placesCleanUp {
+  color: #1b1b1b;
+  text-align: center;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #fff;
+  padding: 116px 0;
 }
 
-.placesCleanUpBlocks{
-    display: flex;
-    justify-content: space-around;
+.placesCleanUpBlocks {
+  display: flex;
+  justify-content: space-around;
 }
 
-.placesCleanUpBlocks div{
-    padding: 40px;
-    max-width: 220px;
-    border-radius: 30px;
-    background: #EBE7F3;
-    margin: 0 15px;
+.placesCleanUpBlocks div {
+  padding: 40px;
+  max-width: 220px;
+  border-radius: 30px;
+  background: #ebe7f3;
+  margin: 0 15px;
 }
 
-.placesCleanUpBlocks p{
-    text-align: center;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.placesCleanUpBlocks p {
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 @media only screen and (max-width: 1024px) {
-    .placesCleanUpBlocks div{
-        padding: 32px;
-        max-width: 210px;
-        border-radius: 30px;
-        background: #EBE7F3;
-    }
+  .placesCleanUpBlocks div {
+    padding: 32px;
+    max-width: 210px;
+    border-radius: 30px;
+    background: #ebe7f3;
   }
-  
-  @media only screen and (max-width: 658px) {
-    .placesCleanUpBlocks{
-        display: block;
-    }
+}
 
-    .placesCleanUpBlocks div{
-        max-width: 100%;
-        margin-bottom: 32px;
-    }
-
-    .placesCleanUp h2{
-        font-size: 24px;
-    }
+@media only screen and (max-width: 658px) {
+  .placesCleanUpBlocks {
+    display: block;
   }
+
+  .placesCleanUpBlocks div {
+    max-width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .placesCleanUp h2 {
+    font-size: 24px;
+  }
+}

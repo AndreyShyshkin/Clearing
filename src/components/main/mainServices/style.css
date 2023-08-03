@@ -1,99 +1,99 @@
-.mainServices h2{
-    text-align: center;
-    margin-top: 100px;
+.mainServices h2 {
+  text-align: center;
+  margin-top: 100px;
 }
 
-.mainServices img{
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 24px;
+.mainServices img {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 24px;
 }
 
-.PlaceCleanUpServices{
-    display: flex;
-    justify-content: space-between;
+.PlaceCleanUpServices {
+  display: flex;
+  justify-content: space-between;
 }
 
-.PlaceCleanUpServices > div{
-    max-width: 360px;
-    padding: 40px;
-    background: #FFF;
-    border-radius: 30px;
-    text-align: center;
+.PlaceCleanUpServices > div {
+  max-width: 360px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 30px;
+  text-align: center;
 }
 
 .PlaceCleanUpServices div:nth-child(2) {
-    margin: 0 40px;
-  }
+  margin: 0 40px;
+}
 
 .OurServices > div {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 48px;
 }
 
-.OurServices > div > div{
-    display: flex;
-    justify-content: space-around;
-    width: 50%;   
+.OurServices > div > div {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
 
-.OurServices > div > div > div{
-    padding: 30px 0;
-    width: 150px;
-    height: 150px; 
-    margin: 0 auto;
+.OurServices > div > div > div {
+  padding: 30px 0;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
 }
 
-.OurServices > div > div > div img{
-    width: 150px; 
+.OurServices > div > div > div img {
+  width: 150px;
 }
 
 @media only screen and (max-width: 1024px) {
-    .OurServices > div {
-        display: block;
-    } 
-
-    .OurServices > div > div{
-        display: block;
-        margin: 0 auto;
-    }
-
-    .OurServices{
-        display: flex;
-        justify-content: space-between;
-    } 
-
-    .PlaceCleanUpServices > div{
-        padding: 25px;
-    }
-
-    .PlaceCleanUpServices div:nth-child(2) {
-        margin: 0 20px;
-      }
+  .OurServices > div {
+    display: block;
   }
-  
-  @media only screen and (max-width: 658px) {
-    .OurServices{
-        display: block;
-    }
 
-    .OurServices > div{
-        display: flex;
-    }
-    
-    .PlaceCleanUpServices{
-        display: block;
-    }
-
-    .PlaceCleanUpServices > div{
-        padding: 32px;
-        max-width: 100%;
-        margin: 15px 0;
-    }
-
-    .PlaceCleanUpServices div:nth-child(2) {
-        margin: 0;
-      }
+  .OurServices > div > div {
+    display: block;
+    margin: 0 auto;
   }
+
+  .OurServices {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .PlaceCleanUpServices > div {
+    padding: 25px;
+  }
+
+  .PlaceCleanUpServices div:nth-child(2) {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 658px) {
+  .OurServices {
+    display: block;
+  }
+
+  .OurServices > div {
+    display: flex;
+  }
+
+  .PlaceCleanUpServices {
+    display: block;
+  }
+
+  .PlaceCleanUpServices > div {
+    padding: 32px;
+    max-width: 100%;
+    margin: 15px 0;
+  }
+
+  .PlaceCleanUpServices div:nth-child(2) {
+    margin: 0;
+  }
+}

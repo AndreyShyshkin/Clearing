@@ -1,102 +1,103 @@
-.reviews{
-    background-color: white;
+.reviews {
+  background-color: white;
+}
+
+.reviews h2 {
+  text-align: center;
+
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding-top: 115px;
+  margin-bottom: 65px;
+}
+
+.review {
+  display: flex;
+  max-width: 360px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+
+  border-radius: 30px;
+  background: #f4f4f8;
+
+  margin: 0 15px;
+  margin-bottom: 36px;
+}
+
+.reviewsBlocks {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 24px;
+}
+
+.reviewsBlocks h3 {
+  color: #1b1b1b;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.stars {
+  margin-bottom: 16px;
+}
+
+.reviewContainer {
+  padding: 28px 24px;
+}
+
+.btnsRewiew {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 115px;
+}
+
+.btnRewiew {
+  display: inline-flex;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px;
+  border: 2px solid #4d1299;
+  background: #fff;
+
+  color: #4d1299;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-right: 16px;
+}
+
+.btnRewiewActive {
+  background: #4d1299;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .reviewsBlocks {
+    display: block;
   }
-  
-  .reviews h2{
-    text-align: center;
-  
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  
-    padding-top: 115px;
-    margin-bottom: 65px;
-  }
-  
-  .review{
-    display: flex;
-    max-width: 360px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-  
-    border-radius: 30px;
-    background: #F4F4F8;
-    
-    margin: 0 15px;
-    margin-bottom: 36px;
-  }
-  
-  .reviewsBlocks{
+
+  .reviewsBlock {
     display: flex;
     justify-content: space-between;
-    padding: 28px 24px;
   }
-  
-  .reviewsBlocks h3{
-    color: #1B1B1B;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    margin-bottom: 8px;
-  }
-  
-  .stars{
-    margin-bottom: 16px;
-  }
-  
-  .reviewContainer{
-    padding: 28px 24px;
-  }
-  
-  .btnsRewiew{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 115px;
-  }
-  
-  .btnRewiew{
-    display: inline-flex;
-    padding: 18px 26px;
-    justify-content: center;
-    align-items: center;
-  
-    border-radius: 50px;
-    border: 2px solid #4D1299;
-    background: #FFF;
-  
-    color: #4D1299;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  
-    margin-right: 16px;
-  }
-  
-  .btnRewiewActive{
-    background: #4D1299;
-    color: #FFF;
+}
+
+@media only screen and (max-width: 658px) {
+  .reviewsBlock {
+    display: block;
   }
 
-  @media only screen and (max-width: 1024px) {
-    .reviewsBlocks{
-      display: block;
-    }
-    .reviewsBlock{
-      display: flex;
-      justify-content: space-between;
-    }
+  .review {
+    max-width: 100%;
   }
-  
-  @media only screen and (max-width: 658px) {
-    .reviewsBlock{
-      display: block;
-    }
-
-    .review{
-      max-width: 100%;
-    }
-  }
+}

@@ -1,151 +1,151 @@
-.trust{
-    background: #F4F4F8;
-    padding: 116px 0;
-  }
-  
-  .trustContainer{
-    border-radius: 30px;
-    background: #EBE7F3;
-    padding: 116px 0;
-    position: relative;
-  }
-  
-  .trustContainerH2{
-    text-align: center;
-  
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  
-    padding-bottom: 25px;
-    margin: 0;
-  }
-  
-  .trustBlocksLine{
-    display: flex;
-    justify-content: space-around;
-    margin: 40px 60px;
-    position: relative;
-  }
-  
-  .trustBlock{
-    display: flex;
-    max-width: 500px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-  
-    border-radius: 30px;
-    background: #F4F4F8;
-    position: relative;
+.trust {
+  background: #f4f4f8;
+  padding: 116px 0;
+}
+
+.trustContainer {
+  border-radius: 30px;
+  background: #ebe7f3;
+  padding: 116px 0;
+  position: relative;
+}
+
+.trustContainerH2 {
+  text-align: center;
+
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+.trustBlocksLine {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 60px;
+  position: relative;
+}
+
+.trustBlock {
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+
+  border-radius: 30px;
+  background: #f4f4f8;
+  position: relative;
+}
+
+.trustBlockLeft {
+  margin-right: 40px;
+}
+
+.trustBlockContainer {
+  padding: 40px;
+}
+
+.trustBlockContainer h3 {
+  color: #4d1299;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.trustBlockContainer h2 {
+  color: #1b1b1b;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.trustBlockContainer p {
+  display: flex;
+  max-width: 421px;
+}
+
+.vecteezy-hand-brush-cleaner {
+  position: absolute;
+  bottom: -120px;
+  left: -70px;
+  z-index: 3;
+}
+
+.vecteezy-stylized-cleaning-sponge {
+  position: absolute;
+  bottom: -65px;
+  right: -65px;
+  z-index: 3;
+}
+
+.btnTrust {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 18px 26px;
+  align-items: center;
+  border-radius: 50px;
+  background: #4d1299;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .trustBlocksLine {
+    margin: 30px 30px;
   }
 
-  .trustBlockLeft{
-    margin-right: 40px;
+  .trustBlockLeft {
+    margin-right: 30px;
   }
-  
-  .trustBlockContainer{
-    padding: 40px;
+
+  .vecteezy-hand-brush-cleaner {
+    width: 134px;
+    height: 134px;
+    bottom: -60px;
+    left: -35px;
   }
-  
-  .trustBlockContainer h3{
-    color: #4D1299;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+
+  .vecteezy-stylized-cleaning-sponge {
+    width: 134px;
+    height: 134px;
   }
-  
-  .trustBlockContainer h2{
-    color: #1B1B1B;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+}
+
+@media only screen and (max-width: 658px) {
+  .trustBlocksLine {
+    margin: 32px auto;
+    display: block;
   }
-  
-  .trustBlockContainer p{
-    display: flex;
-    max-width: 421px;
+
+  .trustBlocks {
+    padding: 0 10px;
   }
-  
-  .vecteezy-hand-brush-cleaner{
-    position: absolute;
-    bottom: -120px;
-    left: -70px;
-    z-index: 3;
-  }
-  
-  .vecteezy-stylized-cleaning-sponge{
-    position: absolute;
-    bottom: -65px;
-    right: -65px;
-    z-index: 3;
-  }
-  
-  .btnTrust{
-    display: flex;
+
+  .trustBlock {
     margin: 0 auto;
-    margin-top: 25px;
-    padding: 18px 26px;
-    align-items: center;
-    border-radius: 50px;
-    background: #4D1299;
-    color: #FFF;
   }
 
-  @media only screen and (max-width: 1024px) {
-    .trustBlocksLine{
-      margin: 30px 30px;
-    }
-
-    .trustBlockLeft{
-      margin-right: 30px;
-    }
-
-    .vecteezy-hand-brush-cleaner{
-      width: 134px;
-      height: 134px;
-      bottom: -60px;
-      left: -35px;
-    }
-
-    .vecteezy-stylized-cleaning-sponge{
-      width: 134px;
-      height: 134px;
-    }
+  .trustBlockLeft {
+    margin-bottom: 32px;
   }
-  
-  @media only screen and (max-width: 658px) {
-    .trustBlocksLine{
-      margin: 32px auto;
-      display: block;
-    }
 
-    .trustBlocks{
-      padding: 0 10px;
-    }
-
-    .trustBlock{
-      margin: 0 auto;
-    }
-
-    .trustBlockLeft{
-      margin-bottom: 32px;
-    }
-
-    .vecteezy-hand-brush-cleaner{
-      bottom: -60px;
-      left: -35px;
-      width: 110px;
-      height: 110px;
-    }
-
-    .vecteezy-stylized-cleaning-sponge{
-      bottom: -60px;
-      right: -30px;
-      width: 110px;
-      height: 110px;
-    }
+  .vecteezy-hand-brush-cleaner {
+    bottom: -60px;
+    left: -35px;
+    width: 110px;
+    height: 110px;
   }
+
+  .vecteezy-stylized-cleaning-sponge {
+    bottom: -60px;
+    right: -30px;
+    width: 110px;
+    height: 110px;
+  }
+}

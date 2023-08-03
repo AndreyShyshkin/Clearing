@@ -1,87 +1,88 @@
-.menu{
-    width: 100%;
-    
-    background: #FFF;
-    box-shadow: 0px 15px 20px 0px rgba(33, 33, 51, 0.03);
-    padding: 20px 0;
+.menu {
+  width: 100%;
+
+  background: #fff;
+  box-shadow: 0px 15px 20px 0px rgba(33, 33, 51, 0.03);
+  padding: 20px 0;
+}
+
+.menu .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.switcher {
+  display: inline-flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+
+  width: 128px;
+  height: 40px;
+  border-radius: 50px;
+  border: 2px solid #4d1299;
+}
+
+.switcherBlock {
+  display: flex;
+  padding: 5px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 25px;
+
+  cursor: pointer;
+}
+
+.switcherActive {
+  background: #4d1299;
+  color: #fff;
+}
+
+.menuLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.tell {
+  display: inline-flex;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  color: #4d1299;
+  padding: 18px 26px;
+  border-radius: 50px;
+  border: 2px solid #4d1299;
+}
+
+.menuIcon {
+  cursor: pointer;
+}
+
+.menuIcon:hover {
+  transform: rotate(1080deg);
+  transition: 1s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .menuLinks {
+    display: none;
   }
-  
-  .menu .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .switcher{
-    display: inline-flex;
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
-  
-    width: 128px;
-    height: 40px;
-    border-radius: 50px;
-    border: 2px solid #4D1299;
-  }
-  
-  .switcherBlock{
-    display: flex;
-    padding: 5px 14px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-  
-    border-radius: 25px;
-  
-    cursor: pointer;
-  }
-  
-  .switcherActive{
-    background: #4D1299;
-    color: #FFF;
+}
+
+@media only screen and (max-width: 658px) {
+  .tell {
+    display: none;
   }
 
-  .menuLinks{
-    display: flex;
-    justify-content: space-between;
-    width: 25%;
+  .social {
+    display: none;
   }
-  
-  .tell{
-    display: inline-flex;
-    padding: 18px 26px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-  
-    color: #4D1299;
-    padding: 18px 26px;
-    border-radius: 50px;
-    border: 2px solid #4D1299;
-  }
-  
-  .menuIcon{
-    cursor: pointer;
-  }
-
-  .menuIcon:hover{
-    transform: rotate(1080deg);
-    transition: 1s;
-  }
-
-  @media only screen and (max-width: 1024px) {
-    .menuLinks{
-      display: none;
-    }
-  }
-  
-  @media only screen and (max-width: 658px) {
-    .tell{
-      display: none;
-    }
-    .social{
-      display: none;
-    }
-  }
+}

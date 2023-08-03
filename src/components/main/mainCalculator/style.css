@@ -1,323 +1,323 @@
-.checkbox{
-    max-width: 31px;
-    max-height: 31px;
-    min-width: 31px;
-    min-height: 31px;
-    border: 2px solid #4D1299;
-    border-radius: 100px;
+.checkbox {
+  max-width: 31px;
+  max-height: 31px;
+  min-width: 31px;
+  min-height: 31px;
+  border: 2px solid #4d1299;
+  border-radius: 100px;
 
-    margin-right: 16px;
-    cursor: pointer;
+  margin-right: 16px;
+  cursor: pointer;
 }
 
-.calculator{
-    padding-bottom: 100px;
+.calculator {
+  padding-bottom: 100px;
 }
 
-.calculator > .container > h2{
-    text-align: center;
+.calculator > .container > h2 {
+  text-align: center;
 
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 116px;
-    margin-bottom: 116px;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 116px;
+  margin-bottom: 116px;
 }
 
-.calculator h4{
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.calculator h4 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-.calculatorBlock{
-    display: flex;
-    justify-content: space-between;
+.calculatorBlock {
+  display: flex;
+  justify-content: space-between;
 }
 
-.calculator-form{
-    max-width: 760px;
-    border-radius: 30px;
-    background: #FFF;
-    padding: 60px;
-    position: relative;
-    margin-right: 40px;
+.calculator-form {
+  max-width: 760px;
+  border-radius: 30px;
+  background: #fff;
+  padding: 60px;
+  position: relative;
+  margin-right: 40px;
 }
 
-.sell10{
-    position: absolute;
-    right: -75px;
-    top: -75px;
-    width: 250px;
-    height: 250px;
-    background-color: #EBE7F3;
-    border-radius: 360px;
-    text-align: center;
-    
-    transform: rotate(10deg);
+.sell10 {
+  position: absolute;
+  right: -75px;
+  top: -75px;
+  width: 250px;
+  height: 250px;
+  background-color: #ebe7f3;
+  border-radius: 360px;
+  text-align: center;
+
+  transform: rotate(10deg);
 }
 
-.sell10 h2{
-    color: #4D1299;
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 0px;
+.sell10 h2 {
+  color: #4d1299;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0px;
 }
 
-.sell10 .first{
-    color: rgba(27, 27, 27, 0.60);
-    text-align: center;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 173px;
-    display: flex;
-    margin: 0 auto;  
-    margin-top: 16px;  
+.sell10 .first {
+  color: rgba(27, 27, 27, 0.6);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 173px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 16px;
 }
 
-.Places{
-    display: flex;
-    display: flex;
-    max-width: 335px;
-    padding: 6px;
-    align-items: flex-start;
-    border-radius: 50px;
-    border: 2px solid #4D1299;
-    background: #FFF;
+.Places {
+  display: flex;
+  display: flex;
+  max-width: 335px;
+  padding: 6px;
+  align-items: flex-start;
+  border-radius: 50px;
+  border: 2px solid #4d1299;
+  background: #fff;
 }
 
-.Places > div{
-    display: flex;
-    padding: 16px 20px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    flex: 1 0 0;
-    border-radius: 50px;
-    color:black;
-    cursor: pointer;
+.Places > div {
+  display: flex;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
 }
 
-.active{
-    background: #4D1299 !important;
-    color: #FFF !important;
+.active {
+  background: #4d1299 !important;
+  color: #fff !important;
 }
 
-.active p{
-    color: #FFF !important;
+.active p {
+  color: #fff !important;
 }
 
-.area{
-    display: inline-flex;
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
+.area {
+  display: inline-flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
 
-    border-radius: 50px;
-    border: 2px solid #4D1299;
+  border-radius: 50px;
+  border: 2px solid #4d1299;
 }
 
-.area > .plus{
-    width: 30px;
-    height: 30px;
-    background: #4D1299;
-    color: #FFF;
-    border-radius: 60px;
-    cursor: pointer;
+.area > .plus {
+  width: 30px;
+  height: 30px;
+  background: #4d1299;
+  color: #fff;
+  border-radius: 60px;
+  cursor: pointer;
 }
 
-.area > .plus > p{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    align-items: center;
+.area > .plus > p {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
 }
 
-.area > .minus{
-    width: 30px;
-    height: 30px;
-    background: rgba(77, 18, 153, 0.50);
-    color: #FFF;
-    border-radius: 60px;
-    cursor: pointer;
+.area > .minus {
+  width: 30px;
+  height: 30px;
+  background: rgba(77, 18, 153, 0.5);
+  color: #fff;
+  border-radius: 60px;
+  cursor: pointer;
 }
 
-.area > .minus > p{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+.area > .minus > p {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
-.largerArea{
-    background: #4D1299 !important;
+.largerArea {
+  background: #4d1299 !important;
 }
 
-.Size > p{
-    margin-top: 10px;
-    margin-left: 20px;
+.Size > p {
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
-.services > div{
-    display: flex;
-    margin-bottom: 16px;
+.services > div {
+  display: flex;
+  margin-bottom: 16px;
 }
 
-.services > div p{
-    display: flex;
-    margin: auto 0;
+.services > div p {
+  display: flex;
+  margin: auto 0;
 }
 
-.services > div input{
-    border-radius: 60px;
+.services > div input {
+  border-radius: 60px;
 }
 
-.keys > div{
-    display: flex;
+.keys > div {
+  display: flex;
 }
 
-.keys > div div{
-    display: inline-flex;
-    padding: 18px 26px;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+.keys > div div {
+  display: inline-flex;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 
-    border-radius: 50px;
-    border: 2px solid #4D1299;
-    color: #4D1299;
-    margin-left: 13px;
-    cursor: pointer;
+  border-radius: 50px;
+  border: 2px solid #4d1299;
+  color: #4d1299;
+  margin-left: 13px;
+  cursor: pointer;
 }
 
-.keys > div p{
-    max-width: 196px;
-    max-height: 50px;
+.keys > div p {
+  max-width: 196px;
+  max-height: 50px;
 }
 
-.yourInfo > div > div{
-    display: flex;
-    width: 100%;
+.yourInfo > div > div {
+  display: flex;
+  width: 100%;
 }
 
-.yourInfo > div > div > div{
-    display: flex;
-    width: 50%;
+.yourInfo > div > div > div {
+  display: flex;
+  width: 50%;
 }
 
-.yourInfo #name{
-    margin-right: 60px;
+.yourInfo #name {
+  margin-right: 60px;
 }
 
-.yourInfo input{
-    display: block;
-    border: none;
-    background: none;
-    border-bottom: 1px solid rgba(77, 18, 153, 0.50);
-    width: 100%;
-    min-height: 35px;
-    margin-bottom: 28px;
+.yourInfo input {
+  display: block;
+  border: none;
+  background: none;
+  border-bottom: 1px solid rgba(77, 18, 153, 0.5);
+  width: 100%;
+  min-height: 35px;
+  margin-bottom: 28px;
 }
 
-.yourInfo textarea{
-    height: 90px;
-    width: 100%;
-    resize: none;
-    border: none;
-    background: none;
-    border-bottom: 1px solid rgba(77, 18, 153, 0.50);
+.yourInfo textarea {
+  height: 90px;
+  width: 100%;
+  resize: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid rgba(77, 18, 153, 0.5);
 }
 
-.confirm{
-    margin-top: 40px;
-    margin-bottom: 52px;
+.confirm {
+  margin-top: 40px;
+  margin-bottom: 52px;
 }
 
-.confirm > div{
-    display: flex;
-    margin: 8px 0;
+.confirm > div {
+  display: flex;
+  margin: 8px 0;
 }
 
-.confirm a{
-    color: #4D1299;
+.confirm a {
+  color: #4d1299;
 }
 
-.pay{
-    display: flex;
+.pay {
+  display: flex;
 }
 
-.pay > div{
-    display: inline-flex;
-    padding: 18px 26px;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
+.pay > div {
+  display: inline-flex;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 
-    border-radius: 50px;
-    border: 2px solid #4D1299;
-    margin-right: 16px;
-    cursor: pointer;
+  border-radius: 50px;
+  border: 2px solid #4d1299;
+  margin-right: 16px;
+  cursor: pointer;
 }
 
-.pay > div > p{
-    display: flex;
-    max-width: 183px;
-    flex-direction: column;
-    color: #4D1299;
+.pay > div > p {
+  display: flex;
+  max-width: 183px;
+  flex-direction: column;
+  color: #4d1299;
 }
 
-.calculator-result{
-    display: inline-flex;
-    padding: 40px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+.calculator-result {
+  display: inline-flex;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 
-    border-radius: 30px;
-    background: #FFF;
+  border-radius: 30px;
+  background: #fff;
 }
 
-.calculator-result > div{
-    display: flex;
-    justify-content: space-between;
-    width: 280px;
+.calculator-result > div {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
 }
 
-.result{
-    border-top: 1px solid rgba(77, 18, 153, 0.50);
-    border-bottom: 1px solid rgba(77, 18, 153, 0.50);
-    display: block !important;
+.result {
+  border-top: 1px solid rgba(77, 18, 153, 0.5);
+  border-bottom: 1px solid rgba(77, 18, 153, 0.5);
+  display: block !important;
 }
 
-.result > div{
-    margin: 5px 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.result > div {
+  margin: 5px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.calculator-result button{
-    display: flex;
-    padding: 18px 26px;
-    justify-content: center;
-    align-items: center;
+.calculator-result button {
+  display: flex;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
 
-    border-radius: 50px;
-    background: #4D1299;
-    color: #FFF;
+  border-radius: 50px;
+  background: #4d1299;
+  color: #fff;
 }
 
-.sell10FullScreen{
-    display: block;
+.sell10FullScreen {
+  display: block;
 }
 
 .sell10Mobile {
@@ -325,85 +325,86 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .calculatorBlock{
-        display: block;
-    }  
-    .sell10{
-        position: inherit;
-        margin-top: 60px;
-        margin-left: 30px;
-    }
-
-    .resultSell {
-      display: flex;
-    }
-
-    .calculator-result{
-        margin-top: 60px;
-    }
-
-    .sell10FullScreen{
-        display: none;
-    }
-
-    .sell10Mobile{
-        display: block;
-    }
+  .calculatorBlock {
+    display: block;
   }
-  
-  @media only screen and (max-width: 658px) {
-    .Places > div{
-        padding: 9px 27px;
-    }
 
-    .sell10{
-        margin: 0 auto;
-    }
-
-    .sell10 h2{
-        padding-top: 30px;
-    }
-
-    .calculator-form{
-        padding: 32px 19px;
-        margin-right: 0;
-    }
-
-    .keys > div{
-        display: block;
-    }
-
-    .keys > div > div{
-        margin-bottom: 16px;
-        padding: 0;
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .pay{
-        display: block;
-    }
-
-    .pay div {
-        margin-bottom: 16px;
-        padding: 0;
-        width: 100%;
-    }
-
-    .Places{
-        font-size: 14px;
-    }
-
-    .calculator-result{
-        width: 100%;
-        padding: 40px 0;
-    }
-
-    .calculator-result > div{
-        width: 80%;
-    }
-
-    .resultSell{
-        display: block;
-    }
+  .sell10 {
+    position: inherit;
+    margin-top: 60px;
+    margin-left: 30px;
   }
+
+  .resultSell {
+    display: flex;
+  }
+
+  .calculator-result {
+    margin-top: 60px;
+  }
+
+  .sell10FullScreen {
+    display: none;
+  }
+
+  .sell10Mobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 658px) {
+  .Places > div {
+    padding: 9px 27px;
+  }
+
+  .sell10 {
+    margin: 0 auto;
+  }
+
+  .sell10 h2 {
+    padding-top: 30px;
+  }
+
+  .calculator-form {
+    padding: 32px 19px;
+    margin-right: 0;
+  }
+
+  .keys > div {
+    display: block;
+  }
+
+  .keys > div > div {
+    margin-bottom: 16px;
+    padding: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .pay {
+    display: block;
+  }
+
+  .pay div {
+    margin-bottom: 16px;
+    padding: 0;
+    width: 100%;
+  }
+
+  .Places {
+    font-size: 14px;
+  }
+
+  .calculator-result {
+    width: 100%;
+    padding: 40px 0;
+  }
+
+  .calculator-result > div {
+    width: 80%;
+  }
+
+  .resultSell {
+    display: block;
+  }
+}

@@ -1,17 +1,16 @@
-import './style.css'
+import "./style.css";
 
-import instagram from '/src/assets/images/instagram.svg';
-import facebook from '/src/assets/images/facebook.svg';
-import whats_app from '/src/assets/images/whats-app.svg';
-import girl_and_boy_cleaning_service_3 from '/src/assets/images/girl-and-boy-cleaning-service-3.png'
-import girl_and_boy_cleaning_service_2 from '/src/assets/images/girl-and-boy-cleaning-service-2.png'
-import girl_and_boy_cleaning_service_1 from '/src/assets/images/girl-and-boy-cleaning-service-1.png'
+import instagram from "/src/assets/images/instagram.svg";
+import facebook from "/src/assets/images/facebook.svg";
+import whats_app from "/src/assets/images/whats-app.svg";
+import girl_and_boy_cleaning_service_3 from "/src/assets/images/girl-and-boy-cleaning-service-3.png";
+import girl_and_boy_cleaning_service_2 from "/src/assets/images/girl-and-boy-cleaning-service-2.png";
+import girl_and_boy_cleaning_service_1 from "/src/assets/images/girl-and-boy-cleaning-service-1.png";
 
 function MainContactUs() {
-
   return (
     <>
-      <div className='ContactUs'>
+      <div className="ContactUs">
         <div className="container">
           <h2 className="ContactUsH2">Зв’язок з нами</h2>
           <div className="ContactUsBlock">
@@ -46,20 +45,38 @@ function MainContactUs() {
             </div>
           </div>
           <div className="ContactUsBanner">
-            <img src={girl_and_boy_cleaning_service_3} alt="girl-and-boy-cleaning-service-3" className="girl-and-boy-cleaning-service-3" />
-            <img src={girl_and_boy_cleaning_service_2} alt="girl-and-boy-cleaning-service-2" className="girl-and-boy-cleaning-service-2" />
-            <img src={girl_and_boy_cleaning_service_1} alt="girl-and-boy-cleaning-service-1" className="girl-and-boy-cleaning-service-1" />
+            <img
+              src={girl_and_boy_cleaning_service_3}
+              alt="girl-and-boy-cleaning-service-3"
+              className="girl-and-boy-cleaning-service-3"
+            />
+            <img
+              src={girl_and_boy_cleaning_service_2}
+              alt="girl-and-boy-cleaning-service-2"
+              className="girl-and-boy-cleaning-service-2"
+            />
+            <img
+              src={girl_and_boy_cleaning_service_1}
+              alt="girl-and-boy-cleaning-service-1"
+              className="girl-and-boy-cleaning-service-1"
+            />
             <div>
-              <h3>Досить витрачати свій вільний час на прибирання! Замовляйте <span>місячну</span> <span>підписку</span> на клінінг вашого дому!</h3>
+              <h3>
+                Досить витрачати свій вільний час на прибирання! Замовляйте{" "}
+                <span>місячну</span> <span>підписку</span> на клінінг вашого
+                дому!
+              </h3>
               <h4>399zł</h4>
               <p>1 генеральне прибирання + 1 підтримуюче прибирання</p>
-              <a href="/pages/calculator/"><button>Замовити прибирання</button></a> 
+              <a href="/pages/calculator/">
+                <button>Замовити прибирання</button>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default MainContactUs
+export default MainContactUs;

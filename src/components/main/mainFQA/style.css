@@ -1,84 +1,84 @@
-.FQA{
-    background: #F4F4F8;
-    padding-top: 116px;
-    padding-bottom: 116px;
-  }
-  
-  .FQAContainerH2{
-    text-align: center;
-  
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  
-    padding-bottom: 65px;
-    margin: 0;
-  }
-  
-  .FQAContainer{
-    border-radius: 30px;
-    background: #EBE7F3;
-  }
-  
-  .FQABlocks{
-    padding: 60px;
-  }
-  
-  details{
-    border-bottom: 2px solid #4D1299;
-  }
-  
-  .summaryDiv{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  details > summary {
-    cursor: pointer;
-    list-style: none;
-  
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  
-    margin: 32px 0;
-  }
+.FQA {
+  background: #f4f4f8;
+  padding-top: 116px;
+  padding-bottom: 116px;
+}
 
-  details > summary::-webkit-details-marker {
-    display:none;
-  }
-  
-  details > p{
-    margin-bottom: 32px;
-    max-width: 900px;
-  }
-  
-  .btnFQA{
-    display: flex;
-    margin: 60px auto;
-    margin-bottom: 0;
-    padding: 18px 26px;
-    justify-content: center;
-    align-items: center;
-  
-    border-radius: 50px;
-    background: #4D1299;
-  
-    color: #FFF;
-  }
+.FQAContainerH2 {
+  text-align: center;
 
-  @media only screen and (max-width: 1024px) {
-    .FQABlocks{
-      padding: 72px 36px;
-    }  
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  padding-bottom: 65px;
+  margin: 0;
+}
+
+.FQAContainer {
+  border-radius: 30px;
+  background: #ebe7f3;
+}
+
+.FQABlocks {
+  padding: 60px;
+}
+
+details {
+  border-bottom: 2px solid #4d1299;
+}
+
+.summaryDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+details > summary {
+  cursor: pointer;
+  list-style: none;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin: 32px 0;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > p {
+  margin-bottom: 32px;
+  max-width: 900px;
+}
+
+.btnFQA {
+  display: flex;
+  margin: 60px auto;
+  margin-bottom: 0;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px;
+  background: #4d1299;
+
+  color: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .FQABlocks {
+    padding: 72px 36px;
   }
-  
-  @media only screen and (max-width: 658px) {
-    .FQABlocks{
-      padding: 32px 16px;
-    }
+}
+
+@media only screen and (max-width: 658px) {
+  .FQABlocks {
+    padding: 32px 16px;
   }
+}

@@ -1,14 +1,21 @@
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
-ol, ul, p{
+ol,
+ul,
+p {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -17,27 +24,27 @@ a{
   transition: 1s;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
-  
-  color: #1B1B1B;
-  font-family: 'Open Sans', sans-serif;
+
+  color: #1b1b1b;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background: #F4F4F8;
+  background: #f4f4f8;
 }
 
-.container{
+.container {
   margin: 0 auto;
   padding: 0 140px;
   max-width: calc(1160px + 140px);
 }
 
-.circle{
-  background-color: #4D1299;
+.circle {
+  background-color: #4d1299;
   border-radius: 100px;
   max-width: 11px;
   max-height: 11px;
@@ -46,50 +53,49 @@ body{
   margin-right: 12px;
 }
 
-button:hover{
+button:hover {
   padding-block: 1.75rem;
   padding-inline: 2rem;
   transition: 1s;
   cursor: pointer;
 }
 
-a:hover > button{
+a:hover > button {
   color: gold;
 }
 
-a:hover{
-  color: #4D1299;
+a:hover {
+  color: #4d1299;
 }
 
-button > a{
-  color: #FFF;
+button > a {
+  color: #fff;
 }
 
-span{
+span {
   line-height: 60px;
 }
 
 @media only screen and (max-width: 1024px) {
-  .container{
+  .container {
     padding: 0 39px;
     max-width: calc(690px + 39px);
-  }  
+  }
 
-  h1{
+  h1 {
     font-size: 36px;
     padding-top: 72px;
   }
 }
 
 @media only screen and (max-width: 658px) {
-  .container{
+  .container {
     padding: 0 20px;
     max-width: calc(690px + 20px);
-  } 
+  }
 
-  h1{
+  h1 {
     font-size: 26px;
     padding-top: 32px;
   }
-
 }
