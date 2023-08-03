@@ -158,27 +158,45 @@
   position: relative;
   width: 100%;
   height: 100%;
+  display: none;
 }
 
-.plusBlockFloor {
+.plusBloks > div {
   position: absolute;
   z-index: 2;
-  left: 30%;
-  top: 75%;
+}
+
+.KitchenPlusBloks {
+  display: block;
+}
+
+.RoomPlusBloks {
+  display: block;
+}
+
+.BathPlusBloks {
+  display: block;
+}
+
+.KitchenPlusBloks .plusBlockFloor {
+  position: absolute;
+  z-index: 2;
+  left: 25%;
+  bottom: 13%;
   width: 9%;
   height: 15%;
 }
 
-.plusBlockTile {
+.KitchenPlusBloks .plusBlockTile {
   position: absolute;
   z-index: 2;
   left: 37%;
-  top: 45%;
+  bottom: 51%;
   width: 11%;
   height: 10%;
 }
 
-.plusBlockStove {
+.KitchenPlusBloks .plusBlockStove {
   position: absolute;
   z-index: 2;
   left: 54%;
@@ -187,27 +205,131 @@
   height: 10%;
 }
 
-.plusBlockStove .textPlusBlock img {
+.KitchenPlusBloks .plusBlockStove .textPlusBlock img {
   rotate: 180deg;
   margin-top: 5px;
   margin-bottom: 0;
 }
 
-.plusBlockEquipment {
+.KitchenPlusBloks .plusBlockEquipment {
   position: absolute;
   z-index: 2;
   left: 70%;
-  top: 40%;
+  bottom: 58%;
   width: 9%;
   height: 10%;
 }
 
-.plusBlockWindowsills {
+.KitchenPlusBloks .plusBlockWindowsills {
   position: absolute;
   z-index: 2;
   text-align: center;
   left: 76%;
-  top: 19%;
+  bottom: 88%;
+  width: 18%;
+  height: 10%;
+}
+
+.RoomPlusBloks .plusBlockFloor {
+  position: absolute;
+  z-index: 2;
+  left: 25%;
+  bottom: 13%;
+  width: 9%;
+  height: 15%;
+}
+
+.RoomPlusBloks .plusBlockTile {
+  position: absolute;
+  z-index: 2;
+  left: 28%;
+  bottom: 47%;
+  width: 11%;
+  height: 10%;
+}
+
+.RoomPlusBloks .plusBlockStove {
+  position: absolute;
+  z-index: 2;
+  left: 54%;
+  top: 53%;
+  width: 14%;
+  height: 10%;
+}
+
+.RoomPlusBloks .plusBlockStove .textPlusBlock img {
+  rotate: 180deg;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.RoomPlusBloks .plusBlockEquipment {
+  position: absolute;
+  z-index: 2;
+  left: 70%;
+  bottom: 58%;
+  width: 9%;
+  height: 10%;
+}
+
+.RoomPlusBloks .plusBlockWindowsills {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  left: 76%;
+  bottom: 88%;
+  width: 18%;
+  height: 10%;
+}
+
+.BathPlusBloks .plusBlockFloor {
+  position: absolute;
+  z-index: 2;
+  left: 25%;
+  bottom: 23%;
+  width: 9%;
+  height: 15%;
+}
+
+.BathPlusBloks .plusBlockTile {
+  position: absolute;
+  z-index: 2;
+  left: 33%;
+  bottom: 65%;
+  width: 11%;
+  height: 10%;
+}
+
+.BathPlusBloks .plusBlockStove {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 40%;
+  width: 14%;
+  height: 10%;
+}
+
+.BathPlusBloks .plusBlockStove .textPlusBlock img {
+  rotate: 180deg;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.BathPlusBloks .plusBlockEquipment {
+  position: absolute;
+  z-index: 2;
+  left: 70%;
+  bottom: 35%;
+  width: 9%;
+  height: 10%;
+}
+
+.BathPlusBloks .plusBlockWindowsills {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  left: 76%;
+  bottom: 88%;
   width: 18%;
   height: 10%;
 }
@@ -222,27 +344,7 @@
   }
 
   .plusBlockStove .textPlusBlock img {
-    margin-bottom: -1px;
-  }
-
-  .plusBlockFloor {
-    top: 65%;
-  }
-
-  .plusBlockTile {
-    top: 38%;
-  }
-
-  .plusBlockStove {
-    top: 43%;
-  }
-
-  .plusBlockEquipment {
-    top: 30%;
-  }
-
-  .plusBlockWindowsills {
-    top: 14%;
+    margin-bottom: -2px !important;
   }
 }
 
@@ -256,23 +358,11 @@
     max-width: 100%;
   }
 
-  .plusBlockFloor {
-    top: 65%;
+  .plusBloks p {
+    font-size: 6px;
   }
 
-  .plusBlockTile {
-    top: 35%;
-  }
-
-  .plusBlockStove {
-    top: 43%;
-  }
-
-  .plusBlockEquipment {
-    top: 30%;
-  }
-
-  .plusBlockWindowsills {
-    top: 9%;
+  .plusBlockStove .textPlusBlock img {
+    margin-bottom: -7px !important;
   }
 }

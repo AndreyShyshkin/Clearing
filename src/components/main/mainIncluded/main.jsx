@@ -61,7 +61,13 @@ function MainIncluded() {
                 : "switcherRoomsImg"
             }
           >
-            <div className="plusBloks">
+            <div
+              className={
+                activeTab === "Кухня"
+                  ? "plusBloks KitchenPlusBloks"
+                  : "plusBloks"
+              }
+            >
               <img
                 src={
                   activeTab === "Кухня"
@@ -107,6 +113,104 @@ function MainIncluded() {
                   <p>
                     Протираємо підвіконня, батареї, плінтуси, двері та вимикачі!
                   </p>
+                  <img src={Polygon_1} alt="Polygon 1" />
+                </div>
+                <img src={plus} alt="plus" />
+              </div>
+            </div>
+
+            <div
+              className={
+                activeTab === "Кімнати"
+                  ? "plusBloks RoomPlusBloks"
+                  : "plusBloks"
+              }
+            >
+              <img
+                src={
+                  activeTab === "Кухня"
+                    ? switcherKitchenRoomsImg
+                    : activeTab === "Кімнати"
+                    ? switcherRoomRoomsImg
+                    : activeTab === "Санвузол"
+                    ? switcherBathroomRoomsImg
+                    : "switcherRoomsImg"
+                }
+                alt="switcherRoomsImg"
+              />
+              <div className="plusBlockFloor">
+                <div className="textPlusBlock">
+                  <p>Чистемо диван</p>
+                  <img src={Polygon_1} alt="Polygon 1" />
+                </div>
+                <img src={plus} alt="plus" />
+              </div>
+              <div className="plusBlockTile">
+                <div className="textPlusBlock">
+                  <p>Миємо технеку</p>
+                  <img src={Polygon_1} alt="Polygon 1" />
+                </div>
+                <img src={plus} alt="plus" />
+              </div>
+              <div className="plusBlockStove">
+                <img src={plus} alt="plus" />
+                <div className="textPlusBlock">
+                  <img src={Polygon_1} alt="Polygon 1" />
+                  <p>Прибераємо пил</p>
+                </div>
+              </div>
+              <div className="plusBlockEquipment">
+                <div className="textPlusBlock">
+                  <p>Миємо екрани</p>
+                  <img src={Polygon_1} alt="Polygon 1" />
+                </div>
+                <img src={plus} alt="plus" />
+              </div>
+            </div>
+
+            <div
+              className={
+                activeTab === "Санвузол"
+                  ? "plusBloks BathPlusBloks"
+                  : "plusBloks"
+              }
+            >
+              <img
+                src={
+                  activeTab === "Кухня"
+                    ? switcherKitchenRoomsImg
+                    : activeTab === "Кімнати"
+                    ? switcherRoomRoomsImg
+                    : activeTab === "Санвузол"
+                    ? switcherBathroomRoomsImg
+                    : "switcherRoomsImg"
+                }
+                alt="switcherRoomsImg"
+              />
+              <div className="plusBlockFloor">
+                <div className="textPlusBlock">
+                  <p>Миємо шкавчики</p>
+                  <img src={Polygon_1} alt="Polygon 1" />
+                </div>
+                <img src={plus} alt="plus" />
+              </div>
+              <div className="plusBlockTile">
+                <div className="textPlusBlock">
+                  <p>Миємо дзеркало </p>
+                  <img src={Polygon_1} alt="Polygon 1" />
+                </div>
+                <img src={plus} alt="plus" />
+              </div>
+              <div className="plusBlockStove">
+                <img src={plus} alt="plus" />
+                <div className="textPlusBlock">
+                  <img src={Polygon_1} alt="Polygon 1" />
+                  <p>Миємо раковину та плиту</p>
+                </div>
+              </div>
+              <div className="plusBlockEquipment">
+                <div className="textPlusBlock">
+                  <p>Миємо ввану</p>
                   <img src={Polygon_1} alt="Polygon 1" />
                 </div>
                 <img src={plus} alt="plus" />
