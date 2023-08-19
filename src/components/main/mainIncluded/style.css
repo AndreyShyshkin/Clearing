@@ -365,4 +365,8 @@
   .plusBlockStove .textPlusBlock img {
     margin-bottom: -7px !important;
   }
+
+  .plusBloks > div {
+    display: none;
+  }
 }
